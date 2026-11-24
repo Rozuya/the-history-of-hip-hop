@@ -3,9 +3,10 @@
   "coverage": {
     "from": 1960,
     "to": 2026,
-    "countryCount": 12,
+    "countryCount": 11,
     "yearCount": 67,
-    "method": "Chaque année comprend un panorama général et une notice pour chacun des territoires listés. Les notices sans événement précisément daté sont des synthèses de période, clairement distinguées des jalons vérifiés."
+    "method": "Chaque année comprend un panorama général et une notice pour chacun des territoires listés. Les notices sans événement précisément daté sont des synthèses de période, clairement distinguées des jalons vérifiés.",
+    "geographySections": 12
   },
   "regions": [
     {
