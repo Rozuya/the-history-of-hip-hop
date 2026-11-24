@@ -26,9 +26,9 @@ Encyclopédie documentaire évolutive consacrée à l'histoire mondiale du hip-h
 - Lorsqu'une date de début ou une sortie précise est renseignée, elle est affichée dans la fiche. Une artiste ou un artiste apparu en 2014 n'est donc pas présenté comme actif précisément en 2010.
 
 ### Références documentaires
-- 51 références associées au répertoire d'artistes.
+- 54 références associées au répertoire d'artistes.
 - 21 références dans la base historique.
-- **69 références distinctes** après déduplication sur leurs identifiants.
+- **72 références distinctes** après déduplication sur leurs identifiants.
 - Les références comprennent des musées, bibliothèques, universités, recherches universitaires, institutions musicales, médias régionaux, biographies officielles et répertoires spécialisés.
 - Les répertoires internationaux sont utilisés comme pistes de découverte ; ils ne sont pas présentés comme des classements exhaustifs ou des preuves uniques pour chaque détail biographique.
 
