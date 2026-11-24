@@ -209,22 +209,78 @@ footer a:hover { color: var(--accent); }
   .region-heading p { margin-top:8px; }
 }
 
+
+/* Répertoire d'artistes : catalogue éditorial */
+.artist-library { padding:100px 11vw 110px; background:#17140f; border-top:1px solid var(--line); }
+.artist-intro { color:var(--muted); line-height:1.85; font-size:14px; max-width:790px; margin:-8px 0 30px; }
+.artist-filters { display:grid; grid-template-columns:1.5fr 1fr 1fr 1fr; gap:13px; margin:30px 0 24px; }
+.artist-filters label { display:grid; gap:8px; color:var(--muted); font:9px var(--mono); letter-spacing:.12em; min-width:0; }
+.artist-filters input,.artist-filters select { width:100%; min-width:0; }
+.artist-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; align-items:start; }
+.artist-card { min-width:0; border:1px solid rgba(240,231,214,.15); background:linear-gradient(145deg,rgba(255,255,255,.035),rgba(255,255,255,.012)); transition:border-color .2s ease,transform .2s ease; }
+.artist-card:hover,.artist-card[open] { border-color:rgba(208,120,67,.62); }
+.artist-card summary { list-style:none; cursor:pointer; padding:17px 17px 16px; min-height:128px; display:flex; flex-direction:column; gap:8px; }
+.artist-card summary::-webkit-details-marker { display:none; }
+.artist-card summary::after { content:"＋"; color:var(--accent); font:14px var(--mono); align-self:flex-end; margin-top:auto; }
+.artist-card[open] summary::after { content:"−"; }
+.artist-card .artist-meta { color:var(--accent); font:9px var(--mono); letter-spacing:.12em; text-transform:uppercase; }
+.artist-card h3 { margin:0; font:600 19px/1.2 var(--serif); color:var(--paper); overflow-wrap:anywhere; }
+.artist-card .artist-sub { color:var(--muted); font:10px var(--mono); line-height:1.55; }
+.artist-expanded { border-top:1px solid var(--line); padding:15px 17px 18px; }
+.artist-expanded p { color:var(--muted); margin:0 0 13px; font-size:12px; line-height:1.75; }
+.artist-expanded .artist-label { color:var(--paper); display:block; font:9px var(--mono); letter-spacing:.12em; margin:14px 0 7px; }
+.artist-tags { display:flex; flex-wrap:wrap; gap:6px; }
+.artist-tag { color:#e4d4bc; border:1px solid rgba(240,231,214,.16); padding:5px 7px; font:9px var(--mono); }
+.artist-expanded ul { color:#d5c7b1; margin:0; padding-left:17px; font-size:11px; line-height:1.8; }
+.artist-citations { margin-top:14px; display:flex; flex-wrap:wrap; gap:8px 12px; }
+.artist-citations a,.artist-citations a:link,.artist-citations a:visited { color:var(--accent); text-decoration:none; font:9px var(--mono); }
+.artist-citations a:hover { color:#f0a16c; text-decoration:underline; }
+.artist-count-note { color:var(--muted); font:10px var(--mono); }
+.artist-more-wrap { display:flex; justify-content:center; margin-top:30px; }
+.artist-more { background:transparent; color:var(--paper); border:1px solid rgba(240,231,214,.25); padding:14px 22px; cursor:pointer; font:10px var(--mono); letter-spacing:.12em; transition:border-color .2s ease,color .2s ease,background .2s ease; }
+.artist-more:hover { color:var(--accent); border-color:var(--accent); background:rgba(208,120,67,.05); }
+.artist-empty { grid-column:1/-1; border:1px solid var(--line); padding:24px; color:var(--muted); line-height:1.7; }
+.artist-empty strong { color:var(--paper); }
+@media(max-width:1050px) {
+  .artist-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .artist-filters { grid-template-columns:repeat(2,minmax(0,1fr)); }
+}
+@media(max-width:700px) {
+  .artist-library { padding:76px 7vw; }
+  .artist-grid,.artist-filters { grid-template-columns:1fr; }
+  .artist-card summary { min-height:110px; }
+}
+
 </style></head><body>
-<header class="top"><a class="brand" href="#"><span class="disc">◉</span><span>THE HISTORY<br><b>OF HIP-HOP</b></span></a><nav><a href="#timeline">Chronologie</a><a href="#origins">Les origines</a><a href="#sources">Sources</a><a href="#about">Le projet</a></nav><span class="lang-tag" aria-label="Langue actuelle : français" title="Version française">FR</span></header>
+<header class="top"><a class="brand" href="#"><span class="disc">◉</span><span>THE HISTORY<br><b>OF HIP-HOP</b></span></a><nav><a href="#timeline">Chronologie</a><a href="#artists">Artistes</a><a href="#origins">Les origines</a><a href="#sources">Sources</a><a href="#about">Le projet</a></nav><span class="lang-tag" aria-label="Langue actuelle : français" title="Version française">FR</span></header>
 <main><section class="hero"><div class="hero-copy"><p class="eyebrow">1960 — 2026 · UNE HISTOIRE MONDIALE</p><h1>THE HISTORY<br><em>OF HIP-HOP</em></h1><p>Des premières influences aux scènes du monde entier. Une culture, des générations, une histoire en mouvement.</p><a class="cta" href="#timeline">Explorer la chronologie <span>↘</span></a><small>ARCHIVES · ARTISTES · ALBUMS · MOUVEMENTS</small><p class="hero-credit">ARCHIVE : AFFICHE DE BATTLE, BRONX, 1979 · SMITHSONIAN / CC0 — <a href="https://commons.wikimedia.org/wiki/File:NMAAHC_Buddy_Esquire_Flier_1979.jpg" target="_blank" rel="noopener noreferrer">VOIR LA NOTICE ↗</a></p></div><div class="hero-mark">VOL. 01 — THE CULTURE</div></section>
 <section class="intro" id="origins"><span class="kicker">01 / AVANT LE PREMIER BEAT</span><div><h2>Une culture ne naît jamais de rien.</h2><p>Avant de devenir un mouvement mondial, le hip-hop s'est construit à partir de traditions musicales, de fêtes de quartier, de créativité populaire et de rencontres culturelles. Cette chronologie remonte aux années 1960 pour replacer ses origines dans leur contexte.</p></div></section>
-<section class="timeline" id="timeline"><div class="kicker">02 / PARCOURIR LE TEMPS</div><div class="heading"><h2>La chronologie</h2><p>67 ANNÉES · 11 PAYS + VUE MONDIALE · 21 SOURCES</p></div><div id="decades" class="decades"></div><div class="year-row"><button id="prev" aria-label="Année précédente">←</button><label class="year-picker">ANNÉE<select id="yearSelect" aria-label="Choisir une année"></select></label><button id="next" aria-label="Année suivante">→</button></div><div class="filters"><label>PAYS / RÉGION<select id="country"><option value="all">Tous les pays</option></select></label><label>RECHERCHER<input id="search" placeholder="Artiste, album, événement…"></label></div><div id="detail" class="detail" aria-live="polite"></div></section>
-<section class="sources" id="sources"><div class="kicker">03 / RÉFÉRENCES DOCUMENTAIRES</div><div class="heading"><h2>Les sources</h2><p>Musées, universités, bibliothèques et archives.</p></div><p class="sources-intro">Les repères historiques sont reliés à des ressources consultables. Les notices de période sont des synthèses de contexte ; elles ne prétendent pas qu’un événement précis s’est produit chaque année dans chaque pays.</p><div id="sourceList" class="source-list"></div></section><section class="about" id="about"><span class="kicker">04 / À PROPOS</span><h2>La mémoire d'une culture.<br><em>Une histoire sans frontières.</em></h2><p>Une chronologie documentaire mondiale couvrant 1960 à 2026 et 12 rubriques géographiques. Chaque année présente un panorama général et un état des lieux par pays. Les jalons datés sont distingués des synthèses historiques de période et accompagnés de références consultables.</p><div class="stamp">EST. 1973<br><small>THE CULTURE LIVES</small></div></section></main><footer><span>THE HISTORY OF HIP-HOP</span><span>1960 — 2026 · 12 RUBRIQUES GÉOGRAPHIQUES</span><a href="#sources">SOURCES DOCUMENTAIRES ↗</a></footer>
+<section class="timeline" id="timeline"><div class="kicker">02 / PARCOURIR LE TEMPS</div><div class="heading"><h2>La chronologie</h2><p>67 ANNÉES · 28 PAYS ET SCÈNES · 344 PROFILS · RÉFÉRENCES</p></div><div id="decades" class="decades"></div><div class="year-row"><button id="prev" aria-label="Année précédente">←</button><label class="year-picker">ANNÉE<select id="yearSelect" aria-label="Choisir une année"></select></label><button id="next" aria-label="Année suivante">→</button></div><div class="filters"><label>PAYS / RÉGION<select id="country"><option value="all">Tous les pays</option></select></label><label>RECHERCHER<input id="search" placeholder="Artiste, album, événement…"></label></div><div id="detail" class="detail" aria-live="polite"></div></section>
+<section class="artist-library" id="artists">
+    <div class="kicker">03 / RÉPERTOIRE INTERNATIONAL</div>
+    <div class="heading"><h2>Les artistes</h2><p id="artistCount">Chargement du répertoire…</p></div>
+    <p class="artist-intro">Rappeurs et rappeuses, groupes, DJs, beatmakers et producteurs : explorez les figures qui ont construit les scènes hip-hop, de leurs pionniers aux générations actuelles.</p>
+    <div class="artist-filters">
+      <label>RECHERCHER UN ARTISTE<input id="artistSearch" type="search" placeholder="Nom, ville, album, style…"></label>
+      <label>PAYS / SCÈNE<select id="artistCountry"><option value="all">Tous les pays</option></select></label>
+      <label>DÉCENNIE<select id="artistDecade"><option value="all">Toutes les périodes</option><option>1970s</option><option>1980s</option><option>1990s</option><option>2000s</option><option>2010s</option><option>2020s</option></select></label>
+      <label>PROFIL<select id="artistType"><option value="all">Tous les profils</option><option value="solo">Artistes solo</option><option value="group">Groupes / collectifs</option><option value="dj">DJs / producteurs / culture</option></select></label>
+    </div>
+    <div id="artistResults" class="artist-grid" aria-live="polite"></div>
+    <div class="artist-more-wrap"><button id="artistMore" type="button" class="artist-more" hidden>Afficher plus d’artistes</button></div>
+  </section>
+  <section class="sources" id="sources"><div class="kicker">04 / RÉFÉRENCES DOCUMENTAIRES</div><div class="heading"><h2>Les sources</h2><p>Musées, universités, bibliothèques et archives.</p></div><p class="sources-intro">Les repères historiques sont reliés à des ressources consultables. Les notices de période sont des synthèses de contexte ; elles ne prétendent pas qu’un événement précis s’est produit chaque année dans chaque pays.</p><div id="sourceList" class="source-list"></div></section><section class="about" id="about"><span class="kicker">05 / À PROPOS</span><h2>La mémoire d'une culture.<br><em>Une histoire sans frontières.</em></h2><p>Une chronologie documentaire mondiale couvrant 1960 à 2026 et 12 rubriques géographiques. Chaque année présente un panorama général et un état des lieux par pays. Les jalons datés sont distingués des synthèses historiques de période et accompagnés de références consultables.</p><div class="stamp">EST. 1973<br><small>THE CULTURE LIVES</small></div></section></main><footer><span>THE HISTORY OF HIP-HOP</span><span>1960 — 2026 · 12 RUBRIQUES GÉOGRAPHIQUES</span><a href="#sources">SOURCES DOCUMENTAIRES ↗</a></footer>
 <script>
 (function () {
   const $ = (selector) => document.querySelector(selector);
-  const state = { year: 1960, decade: "1960s", country: "all", query: "", data: null };
+  const state = { year: 1960, decade: "1960s", country: "all", query: "", data: null, artistData: null, artistLimit: 36 };
   const decadeFor = (year) => Math.floor(year / 10) * 10 + "s";
   const decadeNames = ["1960s","1970s","1980s","1990s","2000s","2010s","2020s"];
   const escapeHTML = (value) => String(value).replace(/[&<>"']/g, (char) => ({
     "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
   }[char]));
-  const sourceMap = () => Object.fromEntries(state.data.sources.map((source) => [source.id, source]));
+  const allSources = () => [...new Map([...state.data.sources, ...state.artistData.sources].map((source) => [source.id, source])).values()];
+  const sourceMap = () => Object.fromEntries(allSources().map((source) => [source.id, source]));
   function phaseFor(region, year) {
     return region.phase.find((phase) => year >= phase[0] && year <= phase[1]) || null;
   }
@@ -236,7 +292,7 @@ footer a:hover { color: var(--accent); }
     ).join("");
   }
   function renderSources() {
-    $("#sourceList").innerHTML = state.data.sources.map((source) =>
+    $("#sourceList").innerHTML = allSources().map((source) =>
       '<article class="source-item">' +
         '<span class="source-type">' + escapeHTML(source.type) + '</span>' +
         '<strong>' + escapeHTML(source.name) + '</strong>' +
@@ -273,6 +329,61 @@ footer a:hover { color: var(--accent); }
       state.data.regions.map((region) =>
         '<option value="' + escapeHTML(region.name) + '">' + escapeHTML(region.name) + '</option>'
       ).join("");
+  }
+
+  function artistCategory(artist) {
+    const role = artist.format.toLocaleLowerCase("fr");
+    if (/(^|\b)(groupe|duo|trio|collectif)(\b|$)/.test(role)) return "group";
+    if (/(dj|producteur|promotrice|organisatrice|deejay)/.test(role)) return "dj";
+    return "solo";
+  }
+  function renderArtistDirectory() {
+    const artists = state.artistData.artists;
+    const map = sourceMap();
+    const countrySelect = $("#artistCountry");
+    if (countrySelect.options.length === 1) {
+      const countries = [...new Set(artists.map((artist) => artist.country))].sort((a,b) => a.localeCompare(b,"fr"));
+      countrySelect.innerHTML = '<option value="all">Tous les pays et scènes</option>' +
+        countries.map((country) => '<option value="' + escapeHTML(country) + '">' + escapeHTML(country) + '</option>').join("");
+    }
+    const query = $("#artistSearch").value.trim().toLocaleLowerCase("fr");
+    const country = countrySelect.value;
+    const decade = $("#artistDecade").value;
+    const type = $("#artistType").value;
+    const matching = artists.filter((artist) => {
+      if (country !== "all" && artist.country !== country) return false;
+      if (decade !== "all" && !artist.period.includes(decade)) return false;
+      if (type !== "all" && artistCategory(artist) !== type) return false;
+      if (query) {
+        const haystack = [
+          artist.name,artist.country,artist.city,artist.format,artist.period,
+          artist.bio,...artist.genres,...artist.keyWorks
+        ].join(" ").toLocaleLowerCase("fr");
+        if (!haystack.includes(query)) return false;
+      }
+      return true;
+    }).sort((a,b) => a.country.localeCompare(b.country,"fr") || a.name.localeCompare(b.name,"fr"));
+    $("#artistCount").textContent = matching.length + " profils sur " + artists.length;
+    const visible = matching.slice(0,state.artistLimit);
+    $("#artistResults").innerHTML = visible.length ? visible.map((artist) => {
+      const citations = artist.sourceIds.map((id) => map[id]).filter(Boolean).map((source) =>
+        '<a href="' + escapeHTML(source.url) + '" target="_blank" rel="noopener noreferrer">' +
+        escapeHTML(source.name) + ' ↗</a>'
+      ).join("");
+      return '<details class="artist-card">' +
+        '<summary><span class="artist-meta">' + escapeHTML(artist.country) + ' · ' + escapeHTML(artist.period) + '</span>' +
+        '<h3>' + escapeHTML(artist.name) + '</h3>' +
+        '<span class="artist-sub">' + escapeHTML(artist.format) + ' · ' + escapeHTML(artist.city) + '</span></summary>' +
+        '<div class="artist-expanded"><p>' + escapeHTML(artist.bio) + '</p>' +
+        '<span class="artist-label">COURANTS ET STYLES</span><div class="artist-tags">' +
+        artist.genres.map((genre) => '<span class="artist-tag">' + escapeHTML(genre) + '</span>').join("") +
+        '</div><span class="artist-label">ŒUVRES REPÈRES — SÉLECTION</span><ul>' +
+        artist.keyWorks.map((work) => '<li>' + escapeHTML(work) + '</li>').join("") +
+        '</ul><div class="artist-citations">' + citations + '</div></div></details>';
+    }).join("") : '<div class="artist-empty"><strong>Aucun profil ne correspond à ces filtres.</strong><br>Essaie un autre pays, une autre période ou un mot-clé plus général.</div>';
+    const more = $("#artistMore");
+    more.hidden = matching.length <= state.artistLimit;
+    more.textContent = "Afficher les " + Math.min(36, matching.length - state.artistLimit) + " profils suivants";
   }
   function renderYear() {
     const year = state.year;
@@ -329,7 +440,14 @@ footer a:hover { color: var(--accent); }
     renderYearSelect();
     renderDecades();
     renderSources();
+    renderArtistDirectory();
     renderYear();
+
+    $("#artistSearch").addEventListener("input", () => { state.artistLimit=36; renderArtistDirectory(); });
+    $("#artistCountry").addEventListener("change", () => { state.artistLimit=36; renderArtistDirectory(); });
+    $("#artistDecade").addEventListener("change", () => { state.artistLimit=36; renderArtistDirectory(); });
+    $("#artistType").addEventListener("change", () => { state.artistLimit=36; renderArtistDirectory(); });
+    $("#artistMore").addEventListener("click", () => { state.artistLimit += 36; renderArtistDirectory(); });
     $("#yearSelect").addEventListener("change", (event) => {
       state.year = Number(event.target.value);
       state.decade = decadeFor(state.year);
@@ -353,15 +471,22 @@ footer a:hover { color: var(--accent); }
       state.query = event.target.value; renderYear();
     });
   }
-  fetch("./data/histoire.json")
-    .then((response) => {
-      if (!response.ok) throw new Error("Impossible de charger la base historique (" + response.status + ").");
+  Promise.all([
+    fetch("./data/histoire.json").then((response) => {
+      if (!response.ok) throw new Error("Impossible de charger la chronologie (" + response.status + ").");
+      return response.json();
+    }),
+    fetch("./data/artistes.json").then((response) => {
+      if (!response.ok) throw new Error("Impossible de charger le répertoire d'artistes (" + response.status + ").");
       return response.json();
     })
-    .then(onReady)
-    .catch((error) => {
-      $("#detail").innerHTML = '<div class="no-results"><strong>La base historique ne peut pas être chargée.</strong><p>' +
-        escapeHTML(error.message) + ' Vérifie que le fichier data/histoire.json est bien publié avec le site.</p></div>';
-    });
+  ]).then(([historyData, artistData]) => {
+    state.artistData = artistData;
+    onReady(historyData);
+  }).catch((error) => {
+    $("#detail").innerHTML = '<div class="no-results"><strong>Une base documentaire ne peut pas être chargée.</strong><p>' +
+      escapeHTML(error.message) + ' Vérifie que les fichiers data/histoire.json et data/artistes.json sont publiés.</p></div>';
+    $("#artistCount").textContent = "Répertoire indisponible";
+  });
 })();
 </script></body></html>
