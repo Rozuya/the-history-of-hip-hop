@@ -251,6 +251,10 @@ footer a:hover { color: var(--accent); }
   .artist-card summary { min-height:110px; }
 }
 
+
+.period-artist-year { display:block; margin-top:7px; color:var(--accent); font:9px var(--mono); letter-spacing:.08em; }
+.period-artist-note { display:block; margin:4px 0 12px; color:var(--muted); font:10px var(--mono); }
+
 </style></head><body>
 <header class="top"><a class="brand" href="#"><span class="disc">◉</span><span>THE HISTORY<br><b>OF HIP-HOP</b></span></a><nav><a href="#timeline">Chronologie</a><a href="#artists">Artistes</a><a href="#origins">Les origines</a><a href="#sources">Sources</a><a href="#about">Le projet</a></nav><span class="lang-tag" aria-label="Langue actuelle : français" title="Version française">FR</span></header>
 <main><section class="hero"><div class="hero-copy"><p class="eyebrow">1960 — 2026 · UNE HISTOIRE MONDIALE</p><h1>THE HISTORY<br><em>OF HIP-HOP</em></h1><p>Des premières influences aux scènes du monde entier. Une culture, des générations, une histoire en mouvement.</p><a class="cta" href="#timeline">Explorer la chronologie <span>↘</span></a><small>ARCHIVES · ARTISTES · ALBUMS · MOUVEMENTS</small><p class="hero-credit">ARCHIVE : AFFICHE DE BATTLE, BRONX, 1979 · SMITHSONIAN / CC0 — <a href="https://commons.wikimedia.org/wiki/File:NMAAHC_Buddy_Esquire_Flier_1979.jpg" target="_blank" rel="noopener noreferrer">VOIR LA NOTICE ↗</a></p></div><div class="hero-mark">VOL. 01 — THE CULTURE</div></section>
@@ -273,7 +277,7 @@ footer a:hover { color: var(--accent); }
 <script>
 (function () {
   const $ = (selector) => document.querySelector(selector);
-  const state = { year: 1960, decade: "1960s", country: "all", query: "", data: null, artistData: null, artistLimit: 36 };
+  const state = { year: 1960, decade: "1960s", country: "all", query: "", data: null, artistData: null, artistLimit: 36, periodArtistLimit: 45 };
   const decadeFor = (year) => Math.floor(year / 10) * 10 + "s";
   const decadeNames = ["1960s","1970s","1980s","1990s","2000s","2010s","2020s"];
   const escapeHTML = (value) => String(value).replace(/[&<>"']/g, (char) => ({
@@ -310,6 +314,7 @@ footer a:hover { color: var(--accent); }
       button.addEventListener("click", () => {
         state.decade = button.dataset.decade;
         state.year = Number(button.dataset.decade.slice(0, 4));
+        state.periodArtistLimit = 45;
         $("#yearSelect").value = String(state.year);
         renderDecades();
         renderYear();
@@ -325,9 +330,13 @@ footer a:hover { color: var(--accent); }
     $("#yearSelect").value = String(state.year);
   }
   function renderCountrySelect() {
-    $("#country").innerHTML = '<option value="all">Tous les pays · 12 rubriques</option>' +
-      state.data.regions.map((region) =>
-        '<option value="' + escapeHTML(region.name) + '">' + escapeHTML(region.name) + '</option>'
+    const countries = [...new Set([
+      ...state.data.regions.map((region) => region.name),
+      ...state.artistData.artists.map((artist) => artist.country)
+    ])].sort((a,b) => a.localeCompare(b,"fr"));
+    $("#country").innerHTML = '<option value="all">Tous les pays et scènes (' + countries.filter(x => x !== "Monde").length + ')</option>' +
+      countries.map((country) =>
+        '<option value="' + escapeHTML(country) + '">' + escapeHTML(country) + '</option>'
       ).join("");
   }
 
@@ -385,6 +394,31 @@ footer a:hover { color: var(--accent); }
     more.hidden = matching.length <= state.artistLimit;
     more.textContent = "Afficher les " + Math.min(36, matching.length - state.artistLimit) + " profils suivants";
   }
+  function periodArtistCard(artist) {
+    const map = sourceMap();
+    const citations = artist.sourceIds.map((id) => map[id]).filter(Boolean).map((source) =>
+      '<a href="' + escapeHTML(source.url) + '" target="_blank" rel="noopener noreferrer">' +
+      escapeHTML(source.name) + ' ↗</a>'
+    ).join("");
+    const start = artist.activeYears && artist.activeYears.start
+      ? '<span class="period-artist-note">Début de période indiqué : ' + escapeHTML(artist.activeYears.start) + '</span>'
+      : '<span class="period-artist-note">Période : ' + escapeHTML(artist.period) + '</span>';
+    const exactYearWorks = (artist.workYears || []).includes(state.year);
+    const yearLabel = exactYearWorks
+      ? '<span class="period-artist-year">Projet repère en ' + state.year + '</span>'
+      : '<span class="period-artist-year">Actif pendant la décennie ' + escapeHTML(state.decade) + '</span>';
+    return '<details class="period-artist-card">' +
+      '<summary><span class="period-artist-country">' + escapeHTML(artist.country) + ' · ' + escapeHTML(artist.city) + '</span>' +
+      '<h4>' + escapeHTML(artist.name) + '</h4>' +
+      '<span class="period-artist-meta">' + escapeHTML(artist.format) + ' · ' + escapeHTML(artist.period) + '</span>' +
+      yearLabel + '</summary>' +
+      '<div class="period-artist-expanded"><p>' + escapeHTML(artist.bio) + '</p>' + start +
+      '<div class="artist-tags">' + artist.genres.map(genre => '<span class="artist-tag">' + escapeHTML(genre) + '</span>').join("") + '</div>' +
+      '<span class="artist-label">ŒUVRES REPÈRES</span><ul>' +
+      artist.keyWorks.map(work => '<li>' + escapeHTML(work) + '</li>').join("") +
+      '</ul><div class="artist-citations">' + citations + '</div>' +
+      '</div></details>';
+  }
   function renderYear() {
     const year = state.year;
     const decade = decadeFor(year);
@@ -413,7 +447,40 @@ footer a:hover { color: var(--accent); }
         '<div class="refs">' + refsForCard + '</div>' +
       '</article>';
     }).filter(Boolean).join("");
-    const label = state.country === "all" ? "12 rubriques géographiques" : "Territoire : " + state.country;
+
+    const artistMatches = state.artistData.artists.filter((artist) => {
+      const activeDecades = artist.activeDecades && artist.activeDecades.length
+        ? artist.activeDecades
+        : [...String(artist.period).matchAll(/\b(?:19|20)\d0s\b/g)].map(match => match[0]);
+      if (!activeDecades.includes(decade)) return false;
+      if (state.country !== "all" && artist.country !== state.country) return false;
+      if (query) {
+        const haystack = [
+          artist.name,artist.country,artist.city,artist.format,artist.period,
+          artist.bio,...artist.genres,...artist.keyWorks
+        ].join(" ").toLocaleLowerCase("fr");
+        if (!haystack.includes(query)) return false;
+      }
+      return true;
+    }).sort((a,b) => a.country.localeCompare(b.country,"fr") || a.name.localeCompare(b.name,"fr"));
+
+    const visibleArtistMatches = artistMatches.slice(0,state.periodArtistLimit);
+    const artistSection = artistMatches.length
+      ? '<section class="period-artists">' +
+          '<div class="region-heading"><span>ARTISTES DE LA DÉCENNIE ' + escapeHTML(decade) + '</span>' +
+          '<p>' + artistMatches.length + ' profils correspondants · ' +
+          (state.country === "all" ? "tous les pays" : escapeHTML(state.country)) + '</p></div>' +
+          '<p class="period-lead">Ce répertoire affiche les artistes dont la période d’activité recoupe la décennie sélectionnée. L’année affichée en haut sert de repère dans cette décennie : elle ne signifie pas que chaque artiste était déjà actif précisément cette année-là. Les dates de début et les sorties sont indiquées lorsqu’elles sont présentes dans la fiche.</p>' +
+          '<div class="period-artist-grid">' + visibleArtistMatches.map(periodArtistCard).join("") + '</div>' +
+          '<div class="artist-more-wrap"><button id="periodArtistMore" class="artist-more" type="button" ' +
+          (artistMatches.length <= state.periodArtistLimit ? 'hidden' : '') + '>Afficher les ' +
+          Math.min(45,artistMatches.length-state.periodArtistLimit) + ' profils suivants</button></div>' +
+        '</section>'
+      : (query
+        ? '<div class="no-results">Aucun artiste de cette décennie ne correspond à « ' + escapeHTML(state.query) + ' » avec le filtre géographique sélectionné. Essaie une recherche plus large ou vérifie le pays choisi.</div>'
+        : '<div class="no-results">Aucun profil d’artiste n’est encore indexé pour cette décennie et ce filtre géographique.</div>');
+
+    const label = state.country === "all" ? "49 pays et scènes dans le répertoire" : "Territoire : " + state.country;
     $("#detail").innerHTML =
       '<div class="year-overview">' +
         '<div><div class="kicker">' + decade + ' / REPÈRE HISTORIQUE</div>' +
@@ -425,14 +492,18 @@ footer a:hover { color: var(--accent); }
           escapeHTML(context) +
         '</aside>' +
       '</div>' +
-      '<div class="coverage-note">Méthode : les jalons datés sont accompagnés de références. Les fiches pays décrivent l’état de la scène ou ses influences sur la période ; elles ne signifient pas qu’un événement précis s’est produit dans chaque pays chaque année. Pour les années antérieures à l’émergence locale du rap, la fiche le précise.</div>' +
-      '<div class="region-heading"><span>LE HIP-HOP DANS LE MONDE · ' + year + '</span><p>' + escapeHTML(label) + '</p></div>' +
-      (cards ? '<div class="region-grid">' + cards + '</div>' :
-        '<div class="no-results">Aucune fiche ne correspond à cette recherche. Efface le texte de recherche pour afficher les territoires.</div>');
+      '<div class="coverage-note">Méthode : les jalons datés sont accompagnés de références. Les fiches pays décrivent l’état de la scène ou ses influences sur la période ; elles ne signifient pas qu’un événement précis s’est produit dans chaque pays chaque année. La recherche d’artistes ci-dessous travaille par décennie (ex. 2010 = période 2010–2019), et indique les dates de début ou de sorties lorsqu’elles sont connues.</div>' +
+      (cards ? '<div class="region-heading"><span>LE HIP-HOP DANS LE MONDE · ' + year + '</span><p>' + escapeHTML(label) + '</p></div><div class="region-grid">' + cards + '</div>' : '') +
+      artistSection;
     $("#prev").disabled = year <= 1960;
     $("#next").disabled = year >= 2026;
     $("#yearSelect").value = String(year);
     $("#country").value = state.country;
+    const more = $("#periodArtistMore");
+    if (more) more.addEventListener("click", () => {
+      state.periodArtistLimit += 45;
+      renderYear();
+    });
   }
   function onReady(data) {
     state.data = data;
@@ -450,25 +521,28 @@ footer a:hover { color: var(--accent); }
     $("#artistMore").addEventListener("click", () => { state.artistLimit += 36; renderArtistDirectory(); });
     $("#yearSelect").addEventListener("change", (event) => {
       state.year = Number(event.target.value);
+      state.periodArtistLimit = 45;
       state.decade = decadeFor(state.year);
       renderDecades();
       renderYear();
     });
     $("#prev").addEventListener("click", () => {
       if (state.year > 1960) state.year -= 1;
+      state.periodArtistLimit = 45;
       state.decade = decadeFor(state.year);
       renderDecades(); renderYear();
     });
     $("#next").addEventListener("click", () => {
       if (state.year < 2026) state.year += 1;
+      state.periodArtistLimit = 45;
       state.decade = decadeFor(state.year);
       renderDecades(); renderYear();
     });
     $("#country").addEventListener("change", (event) => {
-      state.country = event.target.value; renderYear();
+      state.country = event.target.value; state.periodArtistLimit=45; renderYear();
     });
     $("#search").addEventListener("input", (event) => {
-      state.query = event.target.value; renderYear();
+      state.query = event.target.value; state.periodArtistLimit=45; renderYear();
     });
   }
   Promise.all([
