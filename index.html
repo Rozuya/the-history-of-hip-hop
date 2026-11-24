@@ -294,7 +294,7 @@ footer a:hover { color: var(--accent); }
       if (query && !searchable.includes(query)) return "";
       const refsForCard = sourceLinks(phase[5]);
       return '<article class="region-card">' +
-        '<span class="region-name">' + escapeHTML(region.name) + ' · ' + year + '</span>' +
+        '<span class="region-name">' + escapeHTML(region.name) + ' · ' + year + ' · PÉRIODE ' + phase[0] + '–' + phase[1] + '</span>' +
         '<h4>' + escapeHTML(phase[2]) + '</h4>' +
         '<p>' + escapeHTML(phase[3]) + '</p>' +
         '<div class="examples"><strong>ARTISTES, STYLES ET REPÈRES DE LA PÉRIODE</strong>' +
@@ -322,7 +322,6 @@ footer a:hover { color: var(--accent); }
     $("#next").disabled = year >= 2026;
     $("#yearSelect").value = String(year);
     $("#country").value = state.country;
-    document.querySelector(".timeline").scrollIntoView({ behavior:"smooth", block:"nearest" });
   }
   function onReady(data) {
     state.data = data;
