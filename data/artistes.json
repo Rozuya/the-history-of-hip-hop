@@ -360,6 +360,27 @@
       "type": "Profil ou recherche spécialisée",
       "url": "https://www.lemonde.fr/afrique/article/2021/05/12/stars-du-rap-ivoire-la-selection-musicale-du-monde-afrique-53_6080034_3212.html",
       "note": "Dossier sur la scène ivoirienne et ses artistes, notamment Kiff No Beat, Black K, MC One, Suspect 95, Fior 2 Bior et artistes féminines."
+    },
+    {
+      "id": "ninho-universal-discography",
+      "name": "Universal Music France — Ninho, biographie et discographie",
+      "type": "Biographie officielle de label",
+      "url": "https://universalmusic.fr/artistes/32399163728",
+      "note": "Biographie officielle et repères chronologiques : I.S.P.A.C. (2014-2015), M.I.L.S (2016), Comme prévu (2017), M.I.L.S 2.0 (2018), Destin (2019), puis les projets ultérieurs."
+    },
+    {
+      "id": "ninho-apple-music",
+      "name": "Apple Music — Ninho, albums et singles",
+      "type": "Catalogue discographique",
+      "url": "https://music.apple.com/fr/artist/ninho/320366644",
+      "note": "Catalogue des albums et projets de Ninho, avec dates de parution notamment M.I.L.S 4 (2026), GOAT (2024), NI (2023), Jefe (2021), M.I.L.S 3 (2020) et Destin (2019)."
+    },
+    {
+      "id": "ninho-qobuz",
+      "name": "Qobuz — Ninho, discographie",
+      "type": "Catalogue discographique",
+      "url": "https://www.qobuz.com/fr-fr/interpreter/ninho/1619903",
+      "note": "Discographie de Ninho avec repères sur I.S.P.A.C., M.I.L.S, Comme prévu, Destin et les projets parus ensuite."
     }
   ],
   "artists": [
@@ -5401,11 +5422,17 @@
       ],
       "bio": "Rappeur français originaire de Longjumeau (Essonne). Ses premiers projets I.S.P.A.C. paraissent au milieu des années 2010 ; M.I.L.S. (2016) marque une forte progression de sa notoriété. Il confirme son succès avec Comme prévu (2017), puis Destin (2019).",
       "keyWorks": [
-        "I.S.P.A.C. (projets, 2014-2015)",
-        "M.I.L.S. (mixtape, 2016)",
+        "I.S.P.A.C. — projets (2014-2015)",
+        "I.S.P.A.C. 2 (mixtape, 2016)",
+        "M.I.L.S (mixtape, 2016)",
         "Comme prévu (album, 2017)",
-        "M.I.L.S. 2.0 (mixtape, 2018)",
-        "Destin (album, 2019)"
+        "M.I.L.S 2.0 (mixtape, 2018)",
+        "Destin (album, 2019)",
+        "M.I.L.S 3 (mixtape, 2020)",
+        "Jefe (album, 2021)",
+        "NI (album, 2023)",
+        "GOAT avec Niska (album collaboratif, 2024)",
+        "M.I.L.S 4 (projet, 2026)"
       ],
       "sourceIds": [
         "france-bpi",
@@ -5414,16 +5441,26 @@
         "france-femmes",
         "france-pionnieres",
         "ninho-universal-france",
-        "ninho-stade-france"
+        "ninho-stade-france",
+        "ninho-universal-discography",
+        "ninho-apple-music",
+        "ninho-qobuz"
       ],
       "activeYears": {
         "start": 2014,
         "breakthrough": 2016,
         "notable": [
+          2014,
+          2015,
           2016,
           2017,
           2018,
-          2019
+          2019,
+          2020,
+          2021,
+          2023,
+          2024,
+          2026
         ]
       },
       "activeDecades": [
@@ -5436,7 +5473,12 @@
         2016,
         2017,
         2018,
-        2019
+        2019,
+        2020,
+        2021,
+        2023,
+        2024,
+        2026
       ]
     },
     {
