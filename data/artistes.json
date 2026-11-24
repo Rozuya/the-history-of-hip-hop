@@ -2,7 +2,7 @@
   "title": "THE HISTORY OF HIP-HOP — Répertoire international des artistes",
   "editionDate": "2026-11-24",
   "methodology": "Sélection documentaire éditoriale de rappeurs, groupes, DJs, producteurs et figures de la culture hip-hop. Ce répertoire n'est pas une liste exhaustive de tous les artistes ayant jamais existé. Les œuvres indiquées sont des repères de discographie, pas une discographie complète. Les dates, lieux et genres sont présentés à un niveau de synthèse et reliés à des ressources de contexte.",
-  "totalProfiles": 459,
+  "totalProfiles": 498,
   "sources": [
     {
       "id": "us-museum",
@@ -262,6 +262,104 @@
       "type": "Répertoire régional",
       "url": "https://asianrappers.com/",
       "note": "Répertoire de découverte de rappeurs et artistes hip-hop en Inde, incluant Honey Singh, Badshah, MC STAN, Raftaar et DIVINE."
+    },
+    {
+      "id": "hiphop-rizziatta",
+      "name": "Hip Hop Island — Rizziatta",
+      "type": "Profil ou recherche spécialisée",
+      "url": "https://hiphopisland.com/artists/rizziatta/",
+      "note": "Profil individuel avec ses débuts en 2022, albums et collaborations, relie également aux canaux officiels et aux plateformes musicales."
+    },
+    {
+      "id": "hiphop-vrgo",
+      "name": "Hip Hop Island — V:RGO",
+      "type": "Profil ou recherche spécialisée",
+      "url": "https://hiphopisland.com/artists/virgo/",
+      "note": "Profil individuel du rappeur de Burgas, avec dates des premiers titres, collaborations et repères de scène bulgare."
+    },
+    {
+      "id": "hiphop-ini",
+      "name": "Hip Hop Island — I.N.I.",
+      "type": "Profil ou recherche spécialisée",
+      "url": "https://hiphopisland.com/artists/ini/",
+      "note": "Profil individuel avec premiers singles depuis 2022, album KLASSA MODE et collaborations."
+    },
+    {
+      "id": "hiphop-connan",
+      "name": "Hip Hop Island — Connan",
+      "type": "Profil ou recherche spécialisée",
+      "url": "https://hiphopisland.com/artists/connan/",
+      "note": "Profil individuel du rappeur soudanais, avec sortie repère Liga (2024) et références de presse locale."
+    },
+    {
+      "id": "hiphop-macha",
+      "name": "Hip Hop Island — Macha Ravel",
+      "type": "Profil ou recherche spécialisée",
+      "url": "https://hiphopisland.com/artists/macha-ravel/",
+      "note": "Profil individuel qui documente ses débuts sous le nom Muha comme rappeuse avant son évolution vers l'alt-pop."
+    },
+    {
+      "id": "hiphop-tayna",
+      "name": "Hip Hop Island — Tayna",
+      "type": "Profil ou recherche spécialisée",
+      "url": "https://hiphopisland.com/artists/tayna/",
+      "note": "Profil individuel de l'artiste hip-hop du Kosovo et d'Albanie, avec canaux officiels et liens vers ses sorties."
+    },
+    {
+      "id": "hiphop-asayel",
+      "name": "Hip Hop Island — Asayel",
+      "type": "Profil ou recherche spécialisée",
+      "url": "https://hiphopisland.com/artists/asayel/",
+      "note": "Profil individuel de la rappeuse saoudienne, avec le single Asliyah (2024) et des sources Arab News et Scene Noise."
+    },
+    {
+      "id": "hiphop-loun",
+      "name": "Hip Hop Island — Loun",
+      "type": "Profil ou recherche spécialisée",
+      "url": "https://hiphopisland.com/artists/loun/",
+      "note": "Profil individuel du rappeur marocain de Casablanca, avec sorties et repères de carrière."
+    },
+    {
+      "id": "hiphop-young-lunya",
+      "name": "Hip Hop Island — Young Lunya",
+      "type": "Profil ou recherche spécialisée",
+      "url": "https://hiphopisland.com/artists/young-lunya/",
+      "note": "Profil individuel du rappeur tanzanien, avec son parcours, ses sorties et des sources Rolling Stone Africa et The Citizen."
+    },
+    {
+      "id": "hiphop-marwan-pablo",
+      "name": "Hip Hop Island — Marwan Pablo",
+      "type": "Profil ou recherche spécialisée",
+      "url": "https://hiphopisland.com/artists/marwan-pablo/",
+      "note": "Profil individuel du rappeur d'Alexandrie, avec repères de carrière et liens vers des sources égyptiennes."
+    },
+    {
+      "id": "hiphop-kivumbi-king",
+      "name": "Hip Hop Island — Kivumbi King",
+      "type": "Profil ou recherche spécialisée",
+      "url": "https://hiphopisland.com/featured/kivumbi-king/",
+      "note": "Profil individuel du rappeur, poète et producteur de Kigali, avec des sources The New Times, KT Press et AllAfrica."
+    },
+    {
+      "id": "hiphop-ezhel",
+      "name": "Hip Hop Island — Ezhel",
+      "type": "Profil ou recherche spécialisée",
+      "url": "https://hiphopisland.com/artists/ezhel/",
+      "note": "Profil individuel du rappeur turc, avec dates de sorties et références de presse."
+    },
+    {
+      "id": "hiphop-australia",
+      "name": "Global Hip Hop Studies — Australia",
+      "type": "Profil ou recherche spécialisée",
+      "url": "https://research-management.mq.edu.au/ws/portalfiles/portal/320460267/Publisher_version.pdf",
+      "note": "Recherche universitaire sur les scènes australiennes, dont les artistes autochtones et multiculturels."
+    },
+    {
+      "id": "hiphop-ivory-coast",
+      "name": "Le Monde Afrique — Stars du rap ivoire",
+      "type": "Profil ou recherche spécialisée",
+      "url": "https://www.lemonde.fr/afrique/article/2021/05/12/stars-du-rap-ivoire-la-selection-musicale-du-monde-afrique-53_6080034_3212.html",
+      "note": "Dossier sur la scène ivoirienne et ses artistes, notamment Kiff No Beat, Black K, MC One, Suspect 95, Fior 2 Bior et artistes féminines."
     }
   ],
   "artists": [
@@ -12638,9 +12736,9 @@
       }
     },
     {
-      "id": "chine-mc-hotdog",
+      "id": "taiwan-mc-hotdog",
       "name": "MC HotDog",
-      "country": "Chine",
+      "country": "Taïwan",
       "city": "Taipei",
       "format": "Rappeur",
       "period": "2000s-2020s",
@@ -16942,7 +17040,1284 @@
       "workYears": [
         2004
       ]
+    },
+    {
+      "id": "bulgarie-rizziatta",
+      "name": "Rizziatta",
+      "country": "Bulgarie",
+      "city": "Burgas",
+      "format": "Rappeur",
+      "period": "2020s",
+      "genres": [
+        "Trap",
+        "Bulgarian hip-hop"
+      ],
+      "bio": "Rappeur de la nouvelle scène bulgare, actif depuis 2022 et associé à V:RGO et I.N.I.",
+      "keyWorks": [
+        "RIZZIATTA (2023)",
+        "REDEYE",
+        "NQMAH IZBOR (2025)"
+      ],
+      "sourceIds": [
+        "hiphop-rizziatta"
+      ],
+      "activeYears": {
+        "start": 2022,
+        "notable": [
+          2023,
+          2025
+        ]
+      },
+      "activeDecades": [
+        "2020s"
+      ],
+      "workYears": [
+        2023,
+        2025
+      ]
+    },
+    {
+      "id": "bulgarie-v-rgo",
+      "name": "V:RGO",
+      "country": "Bulgarie",
+      "city": "Burgas",
+      "format": "Rappeur / producteur",
+      "period": "2010s-2020s",
+      "genres": [
+        "Trap",
+        "drill",
+        "Bulgarian hip-hop"
+      ],
+      "bio": "Rappeur de Burgas, membre de Sauce Kids Gang, actif depuis le milieu des années 2010 et présent dans la nouvelle vague bulgare.",
+      "keyWorks": [
+        "SKG Vol. 1 (2017)",
+        "3/3 (Vol. 1) (2023)",
+        "3/3 (Vol. 3) (2024)"
+      ],
+      "sourceIds": [
+        "hiphop-vrgo"
+      ],
+      "activeYears": {
+        "start": 2016,
+        "notable": [
+          2017,
+          2023,
+          2024
+        ]
+      },
+      "activeDecades": [
+        "2010s",
+        "2020s"
+      ],
+      "workYears": [
+        2017,
+        2023,
+        2024
+      ]
+    },
+    {
+      "id": "bulgarie-i-n-i",
+      "name": "I.N.I.",
+      "country": "Bulgarie",
+      "city": "Sofia",
+      "format": "Rappeur / producteur",
+      "period": "2020s",
+      "genres": [
+        "Bulgarian hip-hop",
+        "drill"
+      ],
+      "bio": "Rappeur bulgare actif depuis 2022, fondateur de Klassa Records et collaborateur de V:RGO, FYRE et Boro Purvi.",
+      "keyWorks": [
+        "KLASSA MODE (2026)"
+      ],
+      "sourceIds": [
+        "hiphop-ini"
+      ],
+      "activeYears": {
+        "start": 2022,
+        "notable": [
+          2026
+        ]
+      },
+      "activeDecades": [
+        "2020s"
+      ],
+      "workYears": [
+        2026
+      ]
+    },
+    {
+      "id": "bulgarie-fyre",
+      "name": "FYRE",
+      "country": "Bulgarie",
+      "city": "Sofia",
+      "format": "Rappeur",
+      "period": "2010s-2020s",
+      "genres": [
+        "Bulgarian hip-hop",
+        "trap"
+      ],
+      "bio": "Rappeur de la scène bulgare contemporaine, cité parmi les artistes de la nouvelle vague et lié à la scène Sauce Kids.",
+      "keyWorks": [
+        "Singles et collaborations avec V:RGO et I.N.I."
+      ],
+      "sourceIds": [
+        "hiphop-island-discovery"
+      ],
+      "activeYears": {
+        "start": 2017,
+        "notable": []
+      },
+      "activeDecades": [
+        "2010s",
+        "2020s"
+      ],
+      "workYears": []
+    },
+    {
+      "id": "bulgarie-boro-purvi",
+      "name": "Boro Purvi",
+      "country": "Bulgarie",
+      "city": "Sofia",
+      "format": "Rappeur",
+      "period": "2010s-2020s",
+      "genres": [
+        "Bulgarian hip-hop",
+        "trap"
+      ],
+      "bio": "Rappeur bulgare de la nouvelle scène, collaborateur de V:RGO et I.N.I.",
+      "keyWorks": [
+        "Singles et collaborations de la scène bulgare"
+      ],
+      "sourceIds": [
+        "hiphop-island-discovery"
+      ],
+      "activeYears": {
+        "start": 2017,
+        "notable": []
+      },
+      "activeDecades": [
+        "2010s",
+        "2020s"
+      ],
+      "workYears": []
+    },
+    {
+      "id": "bulgarie-diona",
+      "name": "Diona",
+      "country": "Bulgarie",
+      "city": "Sofia",
+      "format": "Rappeuse",
+      "period": "2010s-2020s",
+      "genres": [
+        "Bulgarian hip-hop",
+        "pop rap"
+      ],
+      "bio": "Rappeuse bulgare associée aux courants pop-rap et hip-hop contemporains.",
+      "keyWorks": [
+        "Singles et projets de la scène bulgare"
+      ],
+      "sourceIds": [
+        "hiphop-island-discovery"
+      ],
+      "activeYears": {
+        "start": 2015,
+        "notable": []
+      },
+      "activeDecades": [
+        "2010s",
+        "2020s"
+      ],
+      "workYears": []
+    },
+    {
+      "id": "croatie-macha-ravel",
+      "name": "Macha Ravel",
+      "country": "Croatie",
+      "city": "Zagreb",
+      "format": "Rappeuse / autrice",
+      "period": "2020s",
+      "genres": [
+        "Croatian rap",
+        "alternative pop"
+      ],
+      "bio": "Artiste née à Zagreb et élevée en France, qui a commencé sous le nom de Muha avec le rap avant d'évoluer vers l'alt-pop et la synth-pop.",
+      "keyWorks": [
+        "Identitet (EP, 2021)",
+        "INTENZITET (2023)",
+        "LUTKICA (2025)"
+      ],
+      "sourceIds": [
+        "hiphop-macha"
+      ],
+      "activeYears": {
+        "start": 2021,
+        "notable": [
+          2021,
+          2023,
+          2025
+        ]
+      },
+      "activeDecades": [
+        "2020s"
+      ],
+      "workYears": [
+        2021,
+        2023,
+        2025
+      ]
+    },
+    {
+      "id": "kosovo-albanie-tayna",
+      "name": "Tayna",
+      "country": "Kosovo / Albanie",
+      "city": "Pristina",
+      "format": "Rappeuse",
+      "period": "2010s-2020s",
+      "genres": [
+        "Kosovan-Albanian hip-hop",
+        "pop rap"
+      ],
+      "bio": "Artiste hip-hop associée au Kosovo et à l'Albanie, présente dans la scène pop-rap régionale.",
+      "keyWorks": [
+        "Si Ai (single)",
+        "Calma (single)",
+        "Obsession (single)"
+      ],
+      "sourceIds": [
+        "hiphop-tayna"
+      ],
+      "activeYears": {
+        "start": 2018,
+        "notable": []
+      },
+      "activeDecades": [
+        "2010s",
+        "2020s"
+      ],
+      "workYears": []
+    },
+    {
+      "id": "arabie-saoudite-asayel",
+      "name": "Asayel",
+      "country": "Arabie saoudite",
+      "city": "La Mecque / Djeddah",
+      "format": "Rappeuse / chanteuse",
+      "period": "2020s",
+      "genres": [
+        "Saudi hip-hop",
+        "Arabic rap"
+      ],
+      "bio": "Rappeuse saoudienne qui interprète en arabe hejazi et encourage la visibilité des femmes dans la musique et le rap du pays.",
+      "keyWorks": [
+        "Asliyah (single, 2024)"
+      ],
+      "sourceIds": [
+        "hiphop-asayel"
+      ],
+      "activeYears": {
+        "start": 2024,
+        "notable": [
+          2024
+        ]
+      },
+      "activeDecades": [
+        "2020s"
+      ],
+      "workYears": [
+        2024
+      ]
+    },
+    {
+      "id": "maroc-loun-young-loun",
+      "name": "Loun (Young Loun)",
+      "country": "Maroc",
+      "city": "Casablanca / Marrakech",
+      "format": "Rappeur",
+      "period": "2010s-2020s",
+      "genres": [
+        "Moroccan hip-hop",
+        "melodic rap"
+      ],
+      "bio": "Rappeur marocain originaire de Casablanca, qui a commencé à rapper en 2012 sous le nom Mr Lawni et publie sous le nom Loun depuis 2016.",
+      "keyWorks": [
+        "L&M (2021)",
+        "Apollo (EP, 2024)",
+        "Therapy (2025)"
+      ],
+      "sourceIds": [
+        "hiphop-loun"
+      ],
+      "activeYears": {
+        "start": 2012,
+        "notable": [
+          2021,
+          2024,
+          2025
+        ]
+      },
+      "activeDecades": [
+        "2010s",
+        "2020s"
+      ],
+      "workYears": [
+        2021,
+        2024,
+        2025
+      ]
+    },
+    {
+      "id": "tanzanie-young-lunya",
+      "name": "Young Lunya",
+      "country": "Tanzanie",
+      "city": "Dar es Salaam",
+      "format": "Rappeur",
+      "period": "2010s-2020s",
+      "genres": [
+        "Bongo rap",
+        "Swahili hip-hop"
+      ],
+      "bio": "Rappeur de Dar es Salaam, connu pour le rap en swahili et la scène Bongo rap; membre initial du trio OMG Tanzania avant sa carrière solo.",
+      "keyWorks": [
+        "Vitu Vingi (2022)",
+        "Mbuzi (2024)"
+      ],
+      "sourceIds": [
+        "hiphop-young-lunya"
+      ],
+      "activeYears": {
+        "start": 2019,
+        "notable": [
+          2022,
+          2024
+        ]
+      },
+      "activeDecades": [
+        "2010s",
+        "2020s"
+      ],
+      "workYears": [
+        2022,
+        2024
+      ]
+    },
+    {
+      "id": "tanzanie-fid-q",
+      "name": "Fid Q",
+      "country": "Tanzanie",
+      "city": "Dar es Salaam",
+      "format": "Rappeur",
+      "period": "2000s-2020s",
+      "genres": [
+        "Bongo Flava",
+        "hip-hop"
+      ],
+      "bio": "Rappeur tanzanien, figure de la scène hip-hop et Bongo Flava, connu pour ses textes en swahili.",
+      "keyWorks": [
+        "The Bongo Hip-Hop Era (sélection)"
+      ],
+      "sourceIds": [
+        "hiphop-island-discovery"
+      ],
+      "activeYears": {
+        "start": 2004,
+        "notable": []
+      },
+      "activeDecades": [
+        "2000s",
+        "2020s"
+      ],
+      "workYears": []
+    },
+    {
+      "id": "rwanda-kivumbi-king",
+      "name": "Kivumbi King",
+      "country": "Rwanda",
+      "city": "Kigali",
+      "format": "Rappeur / chanteur / producteur",
+      "period": "2010s-2020s",
+      "genres": [
+        "Rwandan hip-hop",
+        "spoken word"
+      ],
+      "bio": "Artiste de Kigali, poète, rappeur, chanteur et producteur, actif depuis 2019 et membre de Sick Sound Dimension.",
+      "keyWorks": [
+        "A Sin Called Dreaming",
+        "DID (2021)",
+        "Ganza (2024)",
+        "Installation (EP, 2025)"
+      ],
+      "sourceIds": [
+        "hiphop-kivumbi-king"
+      ],
+      "activeYears": {
+        "start": 2019,
+        "notable": [
+          2021,
+          2024,
+          2025
+        ]
+      },
+      "activeDecades": [
+        "2010s",
+        "2020s"
+      ],
+      "workYears": [
+        2021,
+        2024,
+        2025
+      ]
+    },
+    {
+      "id": "soudan-connan",
+      "name": "Connan",
+      "country": "Soudan",
+      "city": "Khartoum / Le Caire",
+      "format": "Rappeur",
+      "period": "2020s",
+      "genres": [
+        "Sudanese hip-hop",
+        "drill",
+        "trap"
+      ],
+      "bio": "Rappeur soudanais né à Khartoum et ayant grandi en Égypte, qui s'est fait connaître avec le single Liga en 2024.",
+      "keyWorks": [
+        "Liga (single, 2024)"
+      ],
+      "sourceIds": [
+        "hiphop-connan"
+      ],
+      "activeYears": {
+        "start": 2024,
+        "notable": [
+          2024
+        ]
+      },
+      "activeDecades": [
+        "2020s"
+      ],
+      "workYears": [
+        2024
+      ]
+    },
+    {
+      "id": "soudan-tageel",
+      "name": "Tageel",
+      "country": "Soudan",
+      "city": "Khartoum",
+      "format": "Rappeur",
+      "period": "2020s",
+      "genres": [
+        "Sudanese hip-hop"
+      ],
+      "bio": "Rappeur de la scène soudanaise contemporaine, recensé parmi les artistes émergents de cette scène.",
+      "keyWorks": [
+        "Singles et productions de la scène soudanaise"
+      ],
+      "sourceIds": [
+        "hiphop-island-discovery"
+      ],
+      "activeYears": {
+        "start": 2020,
+        "notable": []
+      },
+      "activeDecades": [
+        "2020s"
+      ],
+      "workYears": []
+    },
+    {
+      "id": "malaisie-joe-flizzow",
+      "name": "Joe Flizzow",
+      "country": "Malaisie",
+      "city": "Kuala Lumpur",
+      "format": "Rappeur / producteur",
+      "period": "1990s-2020s",
+      "genres": [
+        "Malaysian hip-hop",
+        "Malay rap"
+      ],
+      "bio": "Rappeur et producteur majeur du hip-hop malaisien, ancien membre de Too Phat et fondateur de Kartel Records.",
+      "keyWorks": [
+        "360° (2009)",
+        "Havoc (2013)",
+        "The President (2017)"
+      ],
+      "sourceIds": [
+        "artists-inline-countries",
+        "cambridge-global"
+      ],
+      "activeYears": {
+        "start": 1998,
+        "notable": [
+          2009,
+          2013,
+          2017
+        ]
+      },
+      "activeDecades": [
+        "1990s",
+        "2020s"
+      ],
+      "workYears": [
+        2009,
+        2013,
+        2017
+      ]
+    },
+    {
+      "id": "malaisie-altimet",
+      "name": "Altimet",
+      "country": "Malaisie",
+      "city": "Kuala Lumpur",
+      "format": "Rappeur",
+      "period": "2000s-2020s",
+      "genres": [
+        "Malaysian hip-hop",
+        "Malay rap"
+      ],
+      "bio": "Rappeur malaisien connu pour ses textes en malais et son rôle dans la scène hip-hop de Kuala Lumpur.",
+      "keyWorks": [
+        "Amboi (2016)",
+        "Air (2018)"
+      ],
+      "sourceIds": [
+        "artists-inline-countries",
+        "cambridge-global"
+      ],
+      "activeYears": {
+        "start": 2005,
+        "notable": [
+          2016,
+          2018
+        ]
+      },
+      "activeDecades": [
+        "2000s",
+        "2020s"
+      ],
+      "workYears": [
+        2016,
+        2018
+      ]
+    },
+    {
+      "id": "malaisie-sonaone",
+      "name": "SonaOne",
+      "country": "Malaisie",
+      "city": "Kuala Lumpur",
+      "format": "Rappeur / producteur",
+      "period": "2010s-2020s",
+      "genres": [
+        "Malaysian hip-hop",
+        "alternative rap"
+      ],
+      "bio": "Rappeur et producteur malaisien qui mêle rap, R&B et production électronique.",
+      "keyWorks": [
+        "Growing Up (2015)",
+        "SonaOne (2019)"
+      ],
+      "sourceIds": [
+        "artists-inline-countries",
+        "cambridge-global"
+      ],
+      "activeYears": {
+        "start": 2010,
+        "notable": [
+          2015,
+          2019
+        ]
+      },
+      "activeDecades": [
+        "2010s",
+        "2020s"
+      ],
+      "workYears": [
+        2015,
+        2019
+      ]
+    },
+    {
+      "id": "taiwan-dwagie",
+      "name": "Dwagie",
+      "country": "Taïwan",
+      "city": "Taipei",
+      "format": "Rappeur",
+      "period": "1990s-2020s",
+      "genres": [
+        "Taiwanese hip-hop",
+        "conscious rap"
+      ],
+      "bio": "Rappeur taïwanais pionnier, connu pour ses textes politiques et ses performances en mandarin et en taïwanais.",
+      "keyWorks": [
+        "不入流 (1998)"
+      ],
+      "sourceIds": [
+        "asian-rappers-database",
+        "artists-inline-countries"
+      ],
+      "activeYears": {
+        "start": 1990,
+        "notable": [
+          1998
+        ]
+      },
+      "activeDecades": [
+        "1990s",
+        "2020s"
+      ],
+      "workYears": [
+        1998
+      ]
+    },
+    {
+      "id": "taiwan-leo",
+      "name": "LEO王",
+      "country": "Taïwan",
+      "city": "Taipei",
+      "format": "Rappeur / chanteur",
+      "period": "2010s-2020s",
+      "genres": [
+        "Taiwanese hip-hop",
+        "alternative rap"
+      ],
+      "bio": "Rappeur et chanteur taïwanais qui mêle hip-hop, pop et expérimentation.",
+      "keyWorks": [
+        "吾十有五而志於學 (2019)"
+      ],
+      "sourceIds": [
+        "asian-rappers-database",
+        "artists-inline-countries"
+      ],
+      "activeYears": {
+        "start": 2015,
+        "notable": [
+          2019
+        ]
+      },
+      "activeDecades": [
+        "2010s",
+        "2020s"
+      ],
+      "workYears": [
+        2019
+      ]
+    },
+    {
+      "id": "singapour-sheikh-haikel",
+      "name": "Sheikh Haikel",
+      "country": "Singapour",
+      "city": "Singapour",
+      "format": "Rappeur / acteur",
+      "period": "1990s-2020s",
+      "genres": [
+        "Singapore hip-hop",
+        "Malay rap"
+      ],
+      "bio": "Pionnier du rap singapourien, actif dans les années 1990 et connu pour ses morceaux en anglais et en malais.",
+      "keyWorks": [
+        "Children of the Night (1996)"
+      ],
+      "sourceIds": [
+        "asian-rappers-database",
+        "artists-inline-countries"
+      ],
+      "activeYears": {
+        "start": 1994,
+        "notable": [
+          1996
+        ]
+      },
+      "activeDecades": [
+        "1990s",
+        "2020s"
+      ],
+      "workYears": [
+        1996
+      ]
+    },
+    {
+      "id": "singapour-yung-raja",
+      "name": "Yung Raja",
+      "country": "Singapour",
+      "city": "Singapour",
+      "format": "Rappeur",
+      "period": "2010s-2020s",
+      "genres": [
+        "Singapore hip-hop",
+        "Tamil-English rap"
+      ],
+      "bio": "Rappeur singapourien qui mélange anglais et tamoul et représente une nouvelle génération de hip-hop local.",
+      "keyWorks": [
+        "The Dance Song (2019)"
+      ],
+      "sourceIds": [
+        "asian-rappers-database",
+        "artists-inline-countries"
+      ],
+      "activeYears": {
+        "start": 2018,
+        "notable": [
+          2019
+        ]
+      },
+      "activeDecades": [
+        "2010s",
+        "2020s"
+      ],
+      "workYears": [
+        2019
+      ]
+    },
+    {
+      "id": "singapour-alyph",
+      "name": "ALYPH",
+      "country": "Singapour",
+      "city": "Singapour",
+      "format": "Rappeur / producteur",
+      "period": "2010s-2020s",
+      "genres": [
+        "Singapore hip-hop",
+        "Malay rap"
+      ],
+      "bio": "Artiste singapourien de la scène hip-hop contemporaine, repéré parmi les nouveaux artistes de la région.",
+      "keyWorks": [
+        "Singles et collaborations de la scène singapourienne"
+      ],
+      "sourceIds": [
+        "hiphop-island-discovery",
+        "asian-rappers-database"
+      ],
+      "activeYears": {
+        "start": 2018,
+        "notable": []
+      },
+      "activeDecades": [
+        "2010s",
+        "2020s"
+      ],
+      "workYears": []
+    },
+    {
+      "id": "nepal-laure",
+      "name": "Laure",
+      "country": "Népal",
+      "city": "Katmandou",
+      "format": "Rappeur",
+      "period": "2000s-2020s",
+      "genres": [
+        "Nepali hip-hop",
+        "conscious rap"
+      ],
+      "bio": "Rappeur népalais associé aux premières générations de hip-hop en langue népalaise.",
+      "keyWorks": [
+        "Chakra Byuha (2013)"
+      ],
+      "sourceIds": [
+        "artists-inline-countries",
+        "asian-rappers-database"
+      ],
+      "activeYears": {
+        "start": 2004,
+        "notable": [
+          2013
+        ]
+      },
+      "activeDecades": [
+        "2000s",
+        "2020s"
+      ],
+      "workYears": [
+        2013
+      ]
+    },
+    {
+      "id": "nepal-vten",
+      "name": "VTEN",
+      "country": "Népal",
+      "city": "Katmandou",
+      "format": "Rappeur",
+      "period": "2010s-2020s",
+      "genres": [
+        "Nepali hip-hop",
+        "street rap"
+      ],
+      "bio": "Rappeur de Katmandou dont les textes en népalais ont contribué à la visibilité du hip-hop local.",
+      "keyWorks": [
+        "Superstar (2018)"
+      ],
+      "sourceIds": [
+        "artists-inline-countries",
+        "asian-rappers-database"
+      ],
+      "activeYears": {
+        "start": 2016,
+        "notable": [
+          2018
+        ]
+      },
+      "activeDecades": [
+        "2010s",
+        "2020s"
+      ],
+      "workYears": [
+        2018
+      ]
+    },
+    {
+      "id": "mongolie-ginjin",
+      "name": "Ginjin",
+      "country": "Mongolie",
+      "city": "Oulan-Bator",
+      "format": "Rappeur",
+      "period": "2010s-2020s",
+      "genres": [
+        "Mongolian hip-hop",
+        "trap"
+      ],
+      "bio": "Rappeur mongol de la scène contemporaine, associé aux nouvelles productions trap et hip-hop du pays.",
+      "keyWorks": [
+        "Singles et albums de la scène mongole"
+      ],
+      "sourceIds": [
+        "asian-rappers-database",
+        "hiphop-island-discovery"
+      ],
+      "activeYears": {
+        "start": 2015,
+        "notable": []
+      },
+      "activeDecades": [
+        "2010s",
+        "2020s"
+      ],
+      "workYears": []
+    },
+    {
+      "id": "mongolie-mrs-m",
+      "name": "Mrs M",
+      "country": "Mongolie",
+      "city": "Oulan-Bator",
+      "format": "Rappeuse",
+      "period": "2020s",
+      "genres": [
+        "Mongolian hip-hop",
+        "rap"
+      ],
+      "bio": "Rappeuse mongole recensée parmi les nouvelles artistes de la scène hip-hop du pays.",
+      "keyWorks": [
+        "Singles de la scène mongole"
+      ],
+      "sourceIds": [
+        "hiphop-island-discovery"
+      ],
+      "activeYears": {
+        "start": 2020,
+        "notable": []
+      },
+      "activeDecades": [
+        "2020s"
+      ],
+      "workYears": []
+    },
+    {
+      "id": "cambodge-vannda",
+      "name": "VannDa",
+      "country": "Cambodge",
+      "city": "Phnom Penh",
+      "format": "Rappeur",
+      "period": "2010s-2020s",
+      "genres": [
+        "Cambodian hip-hop",
+        "Khmer rap"
+      ],
+      "bio": "Rappeur cambodgien devenu une figure majeure de la nouvelle scène locale, avec des morceaux mêlant khmer, hip-hop et sonorités régionales.",
+      "keyWorks": [
+        "SKULL 2 (2021)",
+        "Time to Rise (2021)"
+      ],
+      "sourceIds": [
+        "asian-rappers-database",
+        "hiphop-island-discovery"
+      ],
+      "activeYears": {
+        "start": 2016,
+        "notable": [
+          2021
+        ]
+      },
+      "activeDecades": [
+        "2010s",
+        "2020s"
+      ],
+      "workYears": [
+        2021
+      ]
+    },
+    {
+      "id": "palestine-shadia-mansour",
+      "name": "Shadia Mansour",
+      "country": "Palestine",
+      "city": "Lod / Ramallah",
+      "format": "Rappeuse",
+      "period": "2000s-2020s",
+      "genres": [
+        "Palestinian hip-hop",
+        "conscious rap"
+      ],
+      "bio": "Rappeuse palestinienne souvent présentée comme l'une des pionnières du rap arabe féminin, connue pour ses textes politiques et son engagement culturel.",
+      "keyWorks": [
+        "Al Kufiyyeh 3Arabeyyeh (2003)"
+      ],
+      "sourceIds": [
+        "hiphop-island-discovery",
+        "artists-inline-countries",
+        "madame-rap-directory"
+      ],
+      "activeYears": {
+        "start": 2000,
+        "notable": [
+          2003
+        ]
+      },
+      "activeDecades": [
+        "2000s",
+        "2020s"
+      ],
+      "workYears": [
+        2003
+      ]
+    },
+    {
+      "id": "palestine-dam",
+      "name": "DAM",
+      "country": "Palestine",
+      "city": "Ramallah",
+      "format": "Groupe",
+      "period": "2000s-2020s",
+      "genres": [
+        "Palestinian hip-hop",
+        "conscious rap"
+      ],
+      "bio": "Groupe palestinien de rap fondé à Lydd, connu pour ses textes sociaux et politiques en arabe, hébreu et anglais.",
+      "keyWorks": [
+        "Ihda' (2006)",
+        "Dabke on the Moon (2012)"
+      ],
+      "sourceIds": [
+        "artists-inline-countries",
+        "cambridge-global"
+      ],
+      "activeYears": {
+        "start": 1999,
+        "notable": [
+          2006,
+          2012
+        ]
+      },
+      "activeDecades": [
+        "2000s",
+        "2020s"
+      ],
+      "workYears": [
+        2006,
+        2012
+      ]
+    },
+    {
+      "id": "hong-kong-mc-jin",
+      "name": "MC Jin",
+      "country": "Hong Kong",
+      "city": "Hong Kong",
+      "format": "Rappeur",
+      "period": "2000s-2020s",
+      "genres": [
+        "Hong Kong hip-hop",
+        "battle rap"
+      ],
+      "bio": "Rappeur sino-américain né à Miami et associé à Hong Kong, connu pour ses battles et ses morceaux en anglais et en cantonais.",
+      "keyWorks": [
+        "The Rest Is History (2004)",
+        "ABC (2014)"
+      ],
+      "sourceIds": [
+        "asian-rappers-database",
+        "artists-inline-countries"
+      ],
+      "activeYears": {
+        "start": 2001,
+        "notable": [
+          2004,
+          2014
+        ]
+      },
+      "activeDecades": [
+        "2000s",
+        "2020s"
+      ],
+      "workYears": [
+        2004,
+        2014
+      ]
+    },
+    {
+      "id": "ukraine-alyona-alyona",
+      "name": "alyona alyona",
+      "country": "Ukraine",
+      "city": "Kyiv",
+      "format": "Rappeuse",
+      "period": "2010s-2020s",
+      "genres": [
+        "Ukrainian hip-hop",
+        "conscious rap"
+      ],
+      "bio": "Rappeuse ukrainienne reconnue pour ses textes, son flow et sa contribution à la visibilité du rap ukrainophone.",
+      "keyWorks": [
+        "Pushka (2019)",
+        "Galas (2021)"
+      ],
+      "sourceIds": [
+        "artists-inline-countries",
+        "madame-rap-directory",
+        "cambridge-global"
+      ],
+      "activeYears": {
+        "start": 2018,
+        "notable": [
+          2019,
+          2021
+        ]
+      },
+      "activeDecades": [
+        "2010s",
+        "2020s"
+      ],
+      "workYears": [
+        2019,
+        2021
+      ]
+    },
+    {
+      "id": "cameroun-jovi",
+      "name": "Jovi",
+      "country": "Cameroun",
+      "city": "Douala",
+      "format": "Rappeur / producteur",
+      "period": "2010s-2020s",
+      "genres": [
+        "Cameroonian hip-hop",
+        "Mboko"
+      ],
+      "bio": "Rappeur et producteur camerounais qui a contribué à développer le Mboko rap, mêlant langues locales, hip-hop et sonorités camerounaises.",
+      "keyWorks": [
+        "H.I.V. (2012)",
+        "Mboko God (2015)"
+      ],
+      "sourceIds": [
+        "artists-inline-countries",
+        "cambridge-global"
+      ],
+      "activeYears": {
+        "start": 2008,
+        "notable": [
+          2012,
+          2015
+        ]
+      },
+      "activeDecades": [
+        "2010s",
+        "2020s"
+      ],
+      "workYears": [
+        2012,
+        2015
+      ]
+    },
+    {
+      "id": "cameroun-stanley-enow",
+      "name": "Stanley Enow",
+      "country": "Cameroun",
+      "city": "Douala",
+      "format": "Rappeur",
+      "period": "2010s-2020s",
+      "genres": [
+        "Cameroonian hip-hop",
+        "afro rap"
+      ],
+      "bio": "Rappeur camerounais qui a gagné une visibilité internationale avec Hein Père et ses collaborations afro-urbaines.",
+      "keyWorks": [
+        "Soldier Like Ma Papa (2013)",
+        "Genesis (2015)"
+      ],
+      "sourceIds": [
+        "artists-inline-countries",
+        "cambridge-global"
+      ],
+      "activeYears": {
+        "start": 2012,
+        "notable": [
+          2013,
+          2015
+        ]
+      },
+      "activeDecades": [
+        "2010s",
+        "2020s"
+      ],
+      "workYears": [
+        2013,
+        2015
+      ]
+    },
+    {
+      "id": "zimbabwe-denimwoods",
+      "name": "Denimwoods",
+      "country": "Zimbabwe",
+      "city": "Harare",
+      "format": "Rappeur",
+      "period": "2020s",
+      "genres": [
+        "Zimbabwean hip-hop",
+        "alternative rap"
+      ],
+      "bio": "Artiste de la scène hip-hop zimbabwéenne contemporaine, recensé parmi les nouvelles voix de la région.",
+      "keyWorks": [
+        "Singles de la scène zimbabwéenne"
+      ],
+      "sourceIds": [
+        "hiphop-island-discovery",
+        "artists-inline-countries"
+      ],
+      "activeYears": {
+        "start": 2020,
+        "notable": []
+      },
+      "activeDecades": [
+        "2020s"
+      ],
+      "workYears": []
+    },
+    {
+      "id": "libye-twix",
+      "name": "TWIX",
+      "country": "Libye",
+      "city": "Tripoli",
+      "format": "Rappeur",
+      "period": "2020s",
+      "genres": [
+        "Libyan hip-hop",
+        "Arabic rap"
+      ],
+      "bio": "Rappeur de la scène libyenne émergente, recensé dans des répertoires internationaux de hip-hop.",
+      "keyWorks": [
+        "Singles de la scène libyenne"
+      ],
+      "sourceIds": [
+        "hiphop-island-discovery"
+      ],
+      "activeYears": {
+        "start": 2020,
+        "notable": []
+      },
+      "activeDecades": [
+        "2020s"
+      ],
+      "workYears": []
+    },
+    {
+      "id": "mali-amkoullel",
+      "name": "Amkoullel",
+      "country": "Mali",
+      "city": "Bamako",
+      "format": "Rappeur",
+      "period": "1990s-2020s",
+      "genres": [
+        "Malian hip-hop",
+        "conscious rap"
+      ],
+      "bio": "Rappeur malien pionnier, dont la musique associe hip-hop, langues maliennes et thèmes sociaux.",
+      "keyWorks": [
+        "Survival (2002)"
+      ],
+      "sourceIds": [
+        "artists-inline-countries",
+        "cambridge-global"
+      ],
+      "activeYears": {
+        "start": 1990,
+        "notable": [
+          2002
+        ]
+      },
+      "activeDecades": [
+        "1990s",
+        "2020s"
+      ],
+      "workYears": [
+        2002
+      ]
+    },
+    {
+      "id": "koweit-ouzii",
+      "name": "OUZII",
+      "country": "Koweït",
+      "city": "Koweït",
+      "format": "Rappeur",
+      "period": "2020s",
+      "genres": [
+        "Kuwaiti hip-hop",
+        "Arabic rap"
+      ],
+      "bio": "Rappeur koweïtien de la scène émergente, repéré dans des répertoires internationaux de hip-hop.",
+      "keyWorks": [
+        "Singles de la scène koweïtienne"
+      ],
+      "sourceIds": [
+        "hiphop-island-discovery",
+        "asian-rappers-database"
+      ],
+      "activeYears": {
+        "start": 2020,
+        "notable": []
+      },
+      "activeDecades": [
+        "2020s"
+      ],
+      "workYears": []
+    },
+    {
+      "id": "jordanie-el-far3i",
+      "name": "El Far3i",
+      "country": "Jordanie",
+      "city": "Amman",
+      "format": "Rappeur / producteur",
+      "period": "2000s-2020s",
+      "genres": [
+        "Jordanian hip-hop",
+        "conscious rap"
+      ],
+      "bio": "Rappeur et producteur associé à la scène indépendante jordanienne et aux réseaux de rap alternatif du monde arabe.",
+      "keyWorks": [
+        "El Far3i (2013)"
+      ],
+      "sourceIds": [
+        "artists-inline-countries",
+        "cambridge-global"
+      ],
+      "activeYears": {
+        "start": 2008,
+        "notable": [
+          2013
+        ]
+      },
+      "activeDecades": [
+        "2000s",
+        "2020s"
+      ],
+      "workYears": [
+        2013
+      ]
     }
   ],
-  "totalCountries": 49
+  "totalCountries": 71
 }
