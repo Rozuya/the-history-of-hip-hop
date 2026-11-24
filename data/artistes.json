@@ -2,7 +2,7 @@
   "title": "THE HISTORY OF HIP-HOP — Répertoire international des artistes",
   "editionDate": "2026-11-24",
   "methodology": "Sélection documentaire éditoriale de rappeurs, groupes, DJs, producteurs et figures de la culture hip-hop. Ce répertoire n'est pas une liste exhaustive de tous les artistes ayant jamais existé. Les œuvres indiquées sont des repères de discographie, pas une discographie complète. Les dates, lieux et genres sont présentés à un niveau de synthèse et reliés à des ressources de contexte.",
-  "totalProfiles": 344,
+  "totalProfiles": 367,
   "sources": [
     {
       "id": "us-museum",
@@ -157,6 +157,20 @@
       "type": "Recherche et archives",
       "url": "https://www.scielo.br/j/vb/a/gqgLQywLFvdS887G56dn7Sg/?format=html&lang=en",
       "note": "Break, musique noire, São Bento, scènes périphériques et histoire locale."
+    },
+    {
+      "id": "ninho-universal-france",
+      "name": "Universal Music France — Ninho (biographie et discographie)",
+      "type": "Source officielle de label / biographie",
+      "url": "https://universalmusic.fr/artistes/32399163728",
+      "note": "Parcours documenté : projets I.S.P.A.C. (2014-2015), M.I.L.S. (2016), Comme prévu (2017), Destin (2019), puis les projets ultérieurs."
+    },
+    {
+      "id": "ninho-stade-france",
+      "name": "Stade de France — Ninho",
+      "type": "Institution culturelle / biographie d'artiste",
+      "url": "https://www.stadefrance.com/en/le-stade/ninho-stade-de-france",
+      "note": "Repères de carrière et jalons de succès de Ninho, dont les projets I.S.P.A.C., M.I.L.S. et les albums de 2017 et 2019."
     }
   ],
   "artists": [
@@ -3248,18 +3262,33 @@
         "Trap",
         " rap mélodique"
       ],
-      "bio": "Rappeur parmi les plus populaires de sa génération, connu pour ses refrains et son sens de la formule.",
+      "bio": "Rappeur français originaire de Longjumeau (Essonne). Ses premiers projets I.S.P.A.C. paraissent au milieu des années 2010 ; M.I.L.S. (2016) marque une forte progression de sa notoriété. Il confirme son succès avec Comme prévu (2017), puis Destin (2019).",
       "keyWorks": [
-        "Comme prévu (2017)",
-        "Destin (2019)"
+        "I.S.P.A.C. (projets, 2014-2015)",
+        "M.I.L.S. (mixtape, 2016)",
+        "Comme prévu (album, 2017)",
+        "M.I.L.S. 2.0 (mixtape, 2018)",
+        "Destin (album, 2019)"
       ],
       "sourceIds": [
         "france-bpi",
         "france-sacem",
         "france-marseille",
         "france-femmes",
-        "france-pionnieres"
-      ]
+        "france-pionnieres",
+        "ninho-universal-france",
+        "ninho-stade-france"
+      ],
+      "activeYears": {
+        "start": 2014,
+        "breakthrough": 2016,
+        "notable": [
+          2016,
+          2017,
+          2018,
+          2019
+        ]
+      }
     },
     {
       "id": "france-gazo",
@@ -7625,6 +7654,722 @@
       ],
       "sourceIds": [
         "cambridge-global"
+      ]
+    },
+    {
+      "id": "france-niska",
+      "name": "Niska",
+      "country": "France",
+      "city": "Évry",
+      "format": "Rappeur",
+      "period": "2010s-2020s",
+      "genres": [
+        "Trap française",
+        "rap mélodique"
+      ],
+      "bio": "Rappeur de l'Essonne révélé au milieu des années 2010, associé à l'essor de la trap française et aux refrains populaires.",
+      "keyWorks": [
+        "Chambre 9 (2015)",
+        "Zifukoro (2016)",
+        "Commando (2017)",
+        "Mr Sal (2019)"
+      ],
+      "activeYears": {
+        "start": 2013,
+        "breakthrough": 2015,
+        "notable": [
+          2015,
+          2016,
+          2017,
+          2019
+        ]
+      },
+      "sourceIds": [
+        "france-bpi",
+        "france-sacem",
+        "france-marseille"
+      ]
+    },
+    {
+      "id": "france-kaaris",
+      "name": "Kaaris",
+      "country": "France",
+      "city": "Sevran",
+      "format": "Rappeur",
+      "period": "2000s-2020s",
+      "genres": [
+        "Trap française",
+        "rap hardcore"
+      ],
+      "bio": "Rappeur de Sevran dont Or Noir (2013) est souvent cité comme un album déterminant dans la diffusion de la trap en France.",
+      "keyWorks": [
+        "Or Noir (2013)",
+        "Le bruit de mon âme (2015)",
+        "Okou Gnakouri (2016)"
+      ],
+      "activeYears": {
+        "start": 2007,
+        "breakthrough": 2013,
+        "notable": [
+          2013,
+          2015,
+          2016
+        ]
+      },
+      "sourceIds": [
+        "france-bpi",
+        "france-sacem",
+        "france-marseille"
+      ]
+    },
+    {
+      "id": "france-lacrim",
+      "name": "Lacrim",
+      "country": "France",
+      "city": "Paris",
+      "format": "Rappeur",
+      "period": "2000s-2020s",
+      "genres": [
+        "Rap français",
+        "trap"
+      ],
+      "bio": "Rappeur révélé par ses mixtapes et projets au début des années 2010, devenu une figure importante du rap français.",
+      "keyWorks": [
+        "Corleone (2014)",
+        "R.I.P.R.O. (2015)",
+        "Force & Honneur (2017)"
+      ],
+      "activeYears": {
+        "start": 2009,
+        "breakthrough": 2013,
+        "notable": [
+          2014,
+          2015,
+          2017
+        ]
+      },
+      "sourceIds": [
+        "france-bpi",
+        "france-sacem",
+        "france-marseille"
+      ]
+    },
+    {
+      "id": "france-sofiane",
+      "name": "Sofiane",
+      "country": "France",
+      "city": "Saint-Denis",
+      "format": "Rappeur",
+      "period": "2000s-2020s",
+      "genres": [
+        "Rap français",
+        "freestyle"
+      ],
+      "bio": "Rappeur et animateur de freestyles, très visible dans la scène française à partir de la seconde moitié des années 2010.",
+      "keyWorks": [
+        "Bandit saleté (2017)",
+        "Affranchis (2018)",
+        "La Direction (2021)"
+      ],
+      "activeYears": {
+        "start": 2007,
+        "breakthrough": 2016,
+        "notable": [
+          2017,
+          2018,
+          2021
+        ]
+      },
+      "sourceIds": [
+        "france-bpi",
+        "france-sacem",
+        "france-marseille"
+      ]
+    },
+    {
+      "id": "france-plk",
+      "name": "PLK",
+      "country": "France",
+      "city": "Clamart",
+      "format": "Rappeur",
+      "period": "2010s-2020s",
+      "genres": [
+        "Rap mélodique",
+        "trap"
+      ],
+      "bio": "Rappeur issu du Panama Bende, devenu artiste solo majeur à la fin des années 2010.",
+      "keyWorks": [
+        "Polak (2018)",
+        "Mental (2019)",
+        "Enna (2020)"
+      ],
+      "activeYears": {
+        "start": 2015,
+        "breakthrough": 2018,
+        "notable": [
+          2018,
+          2019,
+          2020
+        ]
+      },
+      "sourceIds": [
+        "france-bpi",
+        "france-sacem",
+        "france-marseille"
+      ]
+    },
+    {
+      "id": "france-sexion-d-assaut",
+      "name": "Sexion d'Assaut",
+      "country": "France",
+      "city": "Paris",
+      "format": "Collectif",
+      "period": "2000s-2010s",
+      "genres": [
+        "Rap français",
+        "collectif"
+      ],
+      "bio": "Collectif parisien qui a marqué le rap français au tournant des années 2010 et révélé plusieurs carrières solo.",
+      "keyWorks": [
+        "L'École des points vitaux (2010)",
+        "L'Apogée (2012)"
+      ],
+      "activeYears": {
+        "start": 2002,
+        "breakthrough": 2010,
+        "notable": [
+          2010,
+          2012
+        ]
+      },
+      "sourceIds": [
+        "france-bpi",
+        "france-sacem",
+        "france-marseille"
+      ]
+    },
+    {
+      "id": "france-gims",
+      "name": "Gims",
+      "country": "France",
+      "city": "Paris",
+      "format": "Rappeur / chanteur",
+      "period": "2000s-2020s",
+      "genres": [
+        "Rap français",
+        "pop urbaine"
+      ],
+      "bio": "Membre de Sexion d'Assaut, devenu l'un des artistes francophones les plus populaires avec sa carrière solo.",
+      "keyWorks": [
+        "Subliminal (2013)",
+        "Mon cœur avait raison (2015)",
+        "Ceinture noire (2018)"
+      ],
+      "activeYears": {
+        "start": 2002,
+        "breakthrough": 2013,
+        "notable": [
+          2013,
+          2015,
+          2018
+        ]
+      },
+      "sourceIds": [
+        "france-bpi",
+        "france-sacem",
+        "france-marseille"
+      ]
+    },
+    {
+      "id": "france-black-m",
+      "name": "Black M",
+      "country": "France",
+      "city": "Paris",
+      "format": "Rappeur",
+      "period": "2000s-2020s",
+      "genres": [
+        "Rap français",
+        "pop rap"
+      ],
+      "bio": "Membre de Sexion d'Assaut devenu artiste solo, connu pour ses refrains et son succès populaire.",
+      "keyWorks": [
+        "Les Yeux plus gros que le monde (2014)",
+        "Éternel insatisfait (2016)"
+      ],
+      "activeYears": {
+        "start": 2005,
+        "breakthrough": 2014,
+        "notable": [
+          2014,
+          2016
+        ]
+      },
+      "sourceIds": [
+        "france-bpi",
+        "france-sacem",
+        "france-marseille"
+      ]
+    },
+    {
+      "id": "france-lartiste",
+      "name": "Lartiste",
+      "country": "France",
+      "city": "Bondy",
+      "format": "Rappeur / chanteur",
+      "period": "2000s-2020s",
+      "genres": [
+        "Rap français",
+        "pop urbaine"
+      ],
+      "bio": "Artiste de Seine-Saint-Denis dont les projets mêlent rap, pop, influences marocaines et sonorités dansantes.",
+      "keyWorks": [
+        "Fenomeno (2015)",
+        "Clandestino (2016)",
+        "Grandestino (2018)"
+      ],
+      "activeYears": {
+        "start": 2006,
+        "breakthrough": 2015,
+        "notable": [
+          2015,
+          2016,
+          2018
+        ]
+      },
+      "sourceIds": [
+        "france-bpi",
+        "france-sacem",
+        "france-marseille"
+      ]
+    },
+    {
+      "id": "france-lefa",
+      "name": "Lefa",
+      "country": "France",
+      "city": "Paris",
+      "format": "Rappeur",
+      "period": "2000s-2020s",
+      "genres": [
+        "Rap français",
+        "collectif"
+      ],
+      "bio": "Ancien membre de Sexion d'Assaut, devenu artiste solo au milieu des années 2010.",
+      "keyWorks": [
+        "Monsieur Fall (2016)",
+        "Visionnaire (2017)",
+        "3 du mat (2018)"
+      ],
+      "activeYears": {
+        "start": 2002,
+        "breakthrough": 2016,
+        "notable": [
+          2016,
+          2017,
+          2018
+        ]
+      },
+      "sourceIds": [
+        "france-bpi",
+        "france-sacem",
+        "france-marseille"
+      ]
+    },
+    {
+      "id": "france-koba-lad",
+      "name": "Koba LaD",
+      "country": "France",
+      "city": "Évry",
+      "format": "Rappeur",
+      "period": "2010s-2020s",
+      "genres": [
+        "Trap française"
+      ],
+      "bio": "Rappeur de l'Essonne révélé par les réseaux sociaux et les mixtapes à la fin des années 2010.",
+      "keyWorks": [
+        "VII (2018)",
+        "L'Affranchi (2019)"
+      ],
+      "activeYears": {
+        "start": 2017,
+        "breakthrough": 2018,
+        "notable": [
+          2018,
+          2019
+        ]
+      },
+      "sourceIds": [
+        "france-bpi",
+        "france-sacem",
+        "france-marseille"
+      ]
+    },
+    {
+      "id": "france-maes",
+      "name": "Maes",
+      "country": "France",
+      "city": "Villepinte",
+      "format": "Rappeur",
+      "period": "2010s-2020s",
+      "genres": [
+        "Rap mélodique",
+        "trap"
+      ],
+      "bio": "Rappeur de Seine-Saint-Denis, révélé par ses projets indépendants et ses collaborations.",
+      "keyWorks": [
+        "Réelle Vie 2.0 (2017)",
+        "Pure (2018)",
+        "Les Derniers Salopards (2020)"
+      ],
+      "activeYears": {
+        "start": 2016,
+        "breakthrough": 2018,
+        "notable": [
+          2017,
+          2018,
+          2020
+        ]
+      },
+      "sourceIds": [
+        "france-bpi",
+        "france-sacem",
+        "france-marseille"
+      ]
+    },
+    {
+      "id": "france-heuss-l-enfoire",
+      "name": "Heuss L'Enfoiré",
+      "country": "France",
+      "city": "Gennevilliers",
+      "format": "Rappeur",
+      "period": "2010s-2020s",
+      "genres": [
+        "Rap français",
+        "trap"
+      ],
+      "bio": "Rappeur francilien devenu très visible à la fin des années 2010 grâce à ses singles et à l'album En Esprit.",
+      "keyWorks": [
+        "En Esprit (2019)",
+        "Moulaga (single, 2019)"
+      ],
+      "activeYears": {
+        "start": 2014,
+        "breakthrough": 2018,
+        "notable": [
+          2019,
+          2019
+        ]
+      },
+      "sourceIds": [
+        "france-bpi",
+        "france-sacem",
+        "france-marseille"
+      ]
+    },
+    {
+      "id": "france-gradur",
+      "name": "Gradur",
+      "country": "France",
+      "city": "Roubaix",
+      "format": "Rappeur",
+      "period": "2010s-2020s",
+      "genres": [
+        "Rap français",
+        "trap"
+      ],
+      "bio": "Rappeur du Nord révélé par ses freestyles Sheguey et ses mixtapes au milieu des années 2010.",
+      "keyWorks": [
+        "L'homme au bob (2015)",
+        "Where Is l'album de Gradur? (2016)"
+      ],
+      "activeYears": {
+        "start": 2014,
+        "breakthrough": 2015,
+        "notable": [
+          2015,
+          2016
+        ]
+      },
+      "sourceIds": [
+        "france-bpi",
+        "france-sacem",
+        "france-marseille"
+      ]
+    },
+    {
+      "id": "france-sadek",
+      "name": "Sadek",
+      "country": "France",
+      "city": "Neuilly-Plaisance",
+      "format": "Rappeur",
+      "period": "2010s-2020s",
+      "genres": [
+        "Rap français",
+        "trap"
+      ],
+      "bio": "Rappeur de Seine-Saint-Denis, actif dans les mixtapes et projets du rap français depuis le début des années 2010.",
+      "keyWorks": [
+        "Nique le casino (2012)",
+        "Johnny Niuuum Ne Reviendra Plus (2015)",
+        "VVRDL (2017)"
+      ],
+      "activeYears": {
+        "start": 2011,
+        "breakthrough": 2013,
+        "notable": [
+          2012,
+          2015,
+          2017
+        ]
+      },
+      "sourceIds": [
+        "france-bpi",
+        "france-sacem",
+        "france-marseille"
+      ]
+    },
+    {
+      "id": "france-s-pri-noir",
+      "name": "S.Pri Noir",
+      "country": "France",
+      "city": "Paris",
+      "format": "Rappeur",
+      "period": "2010s-2020s",
+      "genres": [
+        "Rap français",
+        "rap mélodique"
+      ],
+      "bio": "Rappeur parisien associé à la nouvelle génération de la décennie 2010.",
+      "keyWorks": [
+        "Le Monde ne suffit pas (2015)",
+        "Masque blanc (2018)",
+        "État d'esprit (2020)"
+      ],
+      "activeYears": {
+        "start": 2012,
+        "breakthrough": 2015,
+        "notable": [
+          2015,
+          2018,
+          2020
+        ]
+      },
+      "sourceIds": [
+        "france-bpi",
+        "france-sacem",
+        "france-marseille"
+      ]
+    },
+    {
+      "id": "france-mhd",
+      "name": "MHD",
+      "country": "France",
+      "city": "La Roche-sur-Yon / Paris",
+      "format": "Rappeur",
+      "period": "2010s-2020s",
+      "genres": [
+        "Afro trap",
+        "rap français"
+      ],
+      "bio": "Artiste qui a popularisé l'afro trap en France à partir du milieu des années 2010.",
+      "keyWorks": [
+        "MHD (2016)",
+        "19 (2018)"
+      ],
+      "activeYears": {
+        "start": 2015,
+        "breakthrough": 2016,
+        "notable": [
+          2016,
+          2018
+        ]
+      },
+      "sourceIds": [
+        "france-bpi",
+        "france-sacem",
+        "france-marseille"
+      ]
+    },
+    {
+      "id": "france-djadja-dinaz",
+      "name": "Djadja & Dinaz",
+      "country": "France",
+      "city": "Meaux",
+      "format": "Duo",
+      "period": "2010s-2020s",
+      "genres": [
+        "Rap mélodique",
+        "trap"
+      ],
+      "bio": "Duo de Seine-et-Marne dont les morceaux mélodiques trouvent un large public dans les années 2010.",
+      "keyWorks": [
+        "On s'promet (2016)",
+        "Dans l'arène (2017)",
+        "Drôle de mentalité (2019)"
+      ],
+      "activeYears": {
+        "start": 2014,
+        "breakthrough": 2016,
+        "notable": [
+          2016,
+          2017,
+          2019
+        ]
+      },
+      "sourceIds": [
+        "france-bpi",
+        "france-sacem",
+        "france-marseille"
+      ]
+    },
+    {
+      "id": "france-kalash-criminel",
+      "name": "Kalash Criminel",
+      "country": "France",
+      "city": "Limay",
+      "format": "Rappeur",
+      "period": "2010s-2020s",
+      "genres": [
+        "Rap hardcore",
+        "trap"
+      ],
+      "bio": "Rappeur de Seine-et-Marne connu pour son identité vocale et ses projets de la seconde moitié des années 2010.",
+      "keyWorks": [
+        "R.A.S. (2016)",
+        "La Fosse aux lions (2018)"
+      ],
+      "activeYears": {
+        "start": 2015,
+        "breakthrough": 2016,
+        "notable": [
+          2016,
+          2018
+        ]
+      },
+      "sourceIds": [
+        "france-bpi",
+        "france-sacem",
+        "france-marseille"
+      ]
+    },
+    {
+      "id": "france-alonzo",
+      "name": "Alonzo",
+      "country": "France",
+      "city": "Marseille",
+      "format": "Rappeur",
+      "period": "2000s-2020s",
+      "genres": [
+        "Rap marseillais",
+        "trap"
+      ],
+      "bio": "Ancien membre des Psy 4 de la Rime, devenu artiste solo avec une carrière qui relie le rap marseillais des années 2000 et 2010.",
+      "keyWorks": [
+        "Amour, gloire & cité (2009)",
+        "Règlement de comptes (2015)",
+        "100% (2017)"
+      ],
+      "activeYears": {
+        "start": 2000,
+        "breakthrough": 2015,
+        "notable": [
+          2009,
+          2015,
+          2017
+        ]
+      },
+      "sourceIds": [
+        "france-bpi",
+        "france-sacem",
+        "france-marseille"
+      ]
+    },
+    {
+      "id": "france-soso-maness",
+      "name": "Soso Maness",
+      "country": "France",
+      "city": "Marseille",
+      "format": "Rappeur",
+      "period": "2010s-2020s",
+      "genres": [
+        "Rap marseillais",
+        "trap"
+      ],
+      "bio": "Rappeur marseillais associé à la nouvelle génération de la scène locale.",
+      "keyWorks": [
+        "Rescapé (2020)",
+        "Avec le temps (2022)"
+      ],
+      "activeYears": {
+        "start": 2012,
+        "breakthrough": 2020,
+        "notable": [
+          2020,
+          2022
+        ]
+      },
+      "sourceIds": [
+        "france-bpi",
+        "france-sacem",
+        "france-marseille"
+      ]
+    },
+    {
+      "id": "france-kofs",
+      "name": "Kofs",
+      "country": "France",
+      "city": "Marseille",
+      "format": "Rappeur",
+      "period": "2010s-2020s",
+      "genres": [
+        "Rap marseillais",
+        "trap"
+      ],
+      "bio": "Rappeur de Marseille dont les projets s'inscrivent dans le renouvellement de la scène marseillaise.",
+      "keyWorks": [
+        "V (2018)",
+        "Santé & Bonheur (2020)"
+      ],
+      "activeYears": {
+        "start": 2015,
+        "breakthrough": 2018,
+        "notable": [
+          2018,
+          2020
+        ]
+      },
+      "sourceIds": [
+        "france-bpi",
+        "france-sacem",
+        "france-marseille"
+      ]
+    },
+    {
+      "id": "france-leto",
+      "name": "Leto",
+      "country": "France",
+      "city": "Paris",
+      "format": "Rappeur",
+      "period": "2010s-2020s",
+      "genres": [
+        "Trap française"
+      ],
+      "bio": "Rappeur issu du duo PSO Thug, devenu artiste solo et figure de la trap française.",
+      "keyWorks": [
+        "Trap$tar (2018)",
+        "100 Visages (2020)"
+      ],
+      "activeYears": {
+        "start": 2014,
+        "breakthrough": 2018,
+        "notable": [
+          2018,
+          2020
+        ]
+      },
+      "sourceIds": [
+        "france-bpi",
+        "france-sacem",
+        "france-marseille"
       ]
     }
   ]
