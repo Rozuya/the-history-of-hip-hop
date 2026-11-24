@@ -8,7 +8,7 @@ Chronologie documentaire en français sur l'histoire mondiale du hip-hop, de ses
 - **11 pays et une vue mondiale** : États-Unis, Jamaïque, France, Royaume-Uni, Canada, Allemagne, Afrique du Sud, Sénégal, Japon, Corée du Sud, Brésil et Monde.
 - **12 fiches géographiques par année** : chaque année présente l'état de la scène, son contexte ou ses influences dans chacun des territoires.
 - **34 jalons historiques datés** dans cette première sélection, avec des références consultables.
-- **20 références documentaires** : musées, universités, bibliothèques, ouvrages de recherche et organisations professionnelles.
+- **21 références documentaires** : musées, universités, bibliothèques, ouvrages de recherche et organisations professionnelles.
 - Recherche par mot-clé, filtre géographique et navigation par année/décennie.
 
 ## Comment lire la chronologie
@@ -36,7 +36,7 @@ L'espace d'administration sécurisé n'est pas encore implémenté. Ne jamais pl
 
 ## Images et droits
 
-L'image d'accueil est une image distante de démonstration. Avant une présentation éditoriale définitive ou une diffusion publique durable, vérifier la licence, le crédit et les conditions de réutilisation de chaque photographie et pochette d'album. Les visuels protégés ne doivent pas être présentés comme libres de droits.
+L'image d'accueil utilise une affiche de battle rap du Bronx datée de 1979, issue des collections du Smithsonian National Museum of African American History and Culture et publiée sur Wikimedia Commons sous licence CC0. Le crédit et la notice sont indiqués sur le site. Pour les autres photographies et pochettes d'albums, vérifier individuellement la licence et les conditions de réutilisation.
 
 ## Prochaines étapes éditoriales
 
