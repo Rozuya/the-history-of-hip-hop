@@ -161,24 +161,208 @@ footer a:hover { color: var(--accent); }
   *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
 }
 
+
+/* Chronologie documentaire enrichie */
+.year-picker { display:flex; flex-direction:column; gap:7px; color:var(--muted); font:10px var(--mono); letter-spacing:.12em; min-width:190px; }
+.year-picker select { width:100%; font:13px var(--mono); }
+.sources { padding:100px 11vw; background:#1d1913; border-top:1px solid var(--line); }
+.sources-intro { color:var(--muted); max-width:790px; line-height:1.85; font-size:14px; margin:0 0 30px; }
+.source-list { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+.source-item { display:flex; flex-direction:column; gap:8px; padding:18px 20px; border:1px solid var(--line); background:rgba(255,255,255,.018); min-width:0; transition:border-color .2s ease, transform .2s ease; }
+.source-item:hover { border-color:rgba(208,120,67,.62); transform:translateY(-2px); }
+.source-item .source-type { color:var(--accent); font:9px var(--mono); letter-spacing:.12em; text-transform:uppercase; }
+.source-item strong { font:600 16px/1.35 var(--serif); color:var(--paper); }
+.source-item p { color:var(--muted); font-size:12px; line-height:1.65; margin:0; }
+.source-item a, .source-item a:link, .source-item a:visited { color:var(--accent); text-decoration:none; font:10px var(--mono); letter-spacing:.08em; }
+.source-item a:hover { color:#f0a16c; }
+.year-overview { display:grid; grid-template-columns:minmax(0,1.35fr) minmax(230px,.65fr); gap:26px; padding:24px 0 28px; }
+.year-overview h3 { font:700 clamp(28px,4vw,42px)/1.1 var(--serif); margin:8px 0 12px; }
+.year-overview p { color:var(--muted); line-height:1.8; margin:0; }
+.year-context { border-left:1px solid var(--accent); padding:4px 0 4px 18px; color:var(--muted); font-size:12px; line-height:1.75; }
+.year-context strong { color:var(--paper); display:block; font:10px var(--mono); letter-spacing:.12em; margin-bottom:8px; }
+.milestone-refs { display:flex; flex-wrap:wrap; gap:10px; margin-top:14px; }
+.milestone-refs a, .milestone-refs a:link, .milestone-refs a:visited { color:var(--accent); text-decoration:none; font:10px var(--mono); border-bottom:1px solid rgba(208,120,67,.35); padding-bottom:3px; }
+.milestone-refs a:hover { color:#f0a16c; }
+.coverage-note { padding:13px 15px; border:1px solid rgba(208,120,67,.28); color:var(--muted); font-size:11px; line-height:1.7; margin:8px 0 26px; }
+.region-heading { display:flex; justify-content:space-between; align-items:end; gap:20px; margin:26px 0 14px; }
+.region-heading span { font:10px var(--mono); letter-spacing:.12em; color:var(--accent); }
+.region-heading p { color:var(--muted); font:10px var(--mono); margin:0; }
+.region-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:13px; }
+.region-card { min-width:0; border:1px solid var(--line); padding:20px; background:linear-gradient(145deg,rgba(255,255,255,.035),rgba(255,255,255,.012)); transition:border-color .2s ease,transform .2s ease; }
+.region-card:hover { border-color:rgba(208,120,67,.55); transform:translateY(-2px); }
+.region-card .region-name { color:var(--accent); font:10px var(--mono); letter-spacing:.16em; text-transform:uppercase; }
+.region-card h4 { color:var(--paper); font:600 21px/1.25 var(--serif); margin:10px 0; }
+.region-card p { color:var(--muted); font-size:12px; line-height:1.8; margin:0; }
+.region-card .examples { border-top:1px solid var(--line); padding-top:11px; margin-top:14px; color:#d5c7b1; font-size:11px; line-height:1.6; }
+.region-card .examples strong { display:block; color:var(--muted); font:9px var(--mono); letter-spacing:.1em; margin-bottom:5px; }
+.region-card .refs { display:flex; flex-wrap:wrap; gap:10px; margin-top:12px; }
+.region-card .refs a, .region-card .refs a:link, .region-card .refs a:visited { color:var(--accent); font:9px var(--mono); text-decoration:none; }
+.region-card .refs a:hover { color:#f0a16c; text-decoration:underline; }
+.no-results { padding:20px; border:1px solid var(--line); color:var(--muted); line-height:1.7; }
+@media(max-width:700px) {
+  .sources { padding:76px 7vw; }
+  .source-list,.region-grid { grid-template-columns:1fr; }
+  .year-overview { grid-template-columns:1fr; gap:16px; }
+  .year-context { border-left:0; border-top:1px solid var(--accent); padding:12px 0 0; }
+  .year-picker { min-width:130px; }
+  .region-heading { display:block; }
+  .region-heading p { margin-top:8px; }
+}
+
 </style></head><body>
-<header class="top"><a class="brand" href="#"><span class="disc">◉</span><span>THE HISTORY<br><b>OF HIP-HOP</b></span></a><nav><a href="#timeline">Chronologie</a><a href="#origins">Les origines</a><a href="#about">Le projet</a></nav><span class="lang-tag" aria-label="Langue actuelle : français" title="Version française">FR</span></header>
+<header class="top"><a class="brand" href="#"><span class="disc">◉</span><span>THE HISTORY<br><b>OF HIP-HOP</b></span></a><nav><a href="#timeline">Chronologie</a><a href="#origins">Les origines</a><a href="#sources">Sources</a><a href="#about">Le projet</a></nav><span class="lang-tag" aria-label="Langue actuelle : français" title="Version française">FR</span></header>
 <main><section class="hero"><div class="hero-copy"><p class="eyebrow">1960 — 2026 · UNE HISTOIRE MONDIALE</p><h1>THE HISTORY<br><em>OF HIP-HOP</em></h1><p>Des premières influences aux scènes du monde entier. Une culture, des générations, une histoire en mouvement.</p><a class="cta" href="#timeline">Explorer la chronologie <span>↘</span></a><small>ARCHIVES · ARTISTES · ALBUMS · MOUVEMENTS</small></div><div class="hero-mark">VOL. 01 — THE CULTURE</div></section>
 <section class="intro" id="origins"><span class="kicker">01 / AVANT LE PREMIER BEAT</span><div><h2>Une culture ne naît jamais de rien.</h2><p>Avant de devenir un mouvement mondial, le hip-hop s'est construit à partir de traditions musicales, de fêtes de quartier, de créativité populaire et de rencontres culturelles. Cette chronologie remonte aux années 1960 pour replacer ses origines dans leur contexte.</p></div></section>
-<section class="timeline" id="timeline"><div class="kicker">02 / PARCOURIR LE TEMPS</div><div class="heading"><h2>La chronologie</h2><p>Choisissez une décennie, puis une année.</p></div><div id="decades" class="decades"></div><div class="year-row"><button id="prev">←</button><div id="years" class="years"></div><button id="next">→</button></div><div class="filters"><label>PAYS / RÉGION<select id="country"><option value="all">Tous les pays</option></select></label><label>RECHERCHER<input id="search" placeholder="Artiste, album, événement…"></label></div><div id="detail" class="detail" aria-live="polite"></div></section>
-<section class="about" id="about"><span class="kicker">03 / À PROPOS</span><h2>La mémoire d'une culture.<br><em>Une histoire sans frontières.</em></h2><p>Un projet documentaire indépendant consacré aux artistes, aux albums, aux scènes locales, aux producteurs et aux mouvements qui ont façonné le hip-hop. Les contenus seront enrichis progressivement et accompagnés de références consultables.</p><div class="stamp">EST. 1973<br><small>THE CULTURE LIVES</small></div></section></main><footer><span>THE HISTORY OF HIP-HOP</span><span>1960 — 2026</span><a href="README.md">À PROPOS DU SITE ↗</a></footer>
+<section class="timeline" id="timeline"><div class="kicker">02 / PARCOURIR LE TEMPS</div><div class="heading"><h2>La chronologie</h2><p>Choisissez une décennie, puis une année.</p></div><div id="decades" class="decades"></div><div class="year-row"><button id="prev" aria-label="Année précédente">←</button><label class="year-picker">ANNÉE<select id="yearSelect" aria-label="Choisir une année"></select></label><button id="next" aria-label="Année suivante">→</button></div><div class="filters"><label>PAYS / RÉGION<select id="country"><option value="all">Tous les pays</option></select></label><label>RECHERCHER<input id="search" placeholder="Artiste, album, événement…"></label></div><div id="detail" class="detail" aria-live="polite"></div></section>
+<section class="sources" id="sources"><div class="kicker">03 / RÉFÉRENCES DOCUMENTAIRES</div><div class="heading"><h2>Les sources</h2><p>Musées, universités, bibliothèques et archives.</p></div><p class="sources-intro">Les repères historiques sont reliés à des ressources consultables. Les notices de période sont des synthèses de contexte ; elles ne prétendent pas qu’un événement précis s’est produit chaque année dans chaque pays.</p><div id="sourceList" class="source-list"></div></section><section class="about" id="about"><span class="kicker">03 / À PROPOS</span><h2>La mémoire d'une culture.<br><em>Une histoire sans frontières.</em></h2><p>Une chronologie documentaire mondiale couvrant 1960 à 2026 et 12 rubriques géographiques. Chaque année présente un panorama général et un état des lieux par pays. Les jalons datés sont distingués des synthèses historiques de période et accompagnés de références consultables.</p><div class="stamp">EST. 1973<br><small>THE CULTURE LIVES</small></div></section></main><footer><span>THE HISTORY OF HIP-HOP</span><span>1960 — 2026 · 12 RUBRIQUES GÉOGRAPHIQUES</span><a href="#sources">SOURCES DOCUMENTAIRES ↗</a></footer>
 <script>
-var D=[
-[1960,'1960s','Les racines musicales et culturelles','Soul, funk naissant, spoken word et traditions de sound systems caribéens font partie du paysage culturel dont émergera le hip-hop. Ce n’est pas encore le hip-hop comme culture constituée.',[['États-Unis','Contexte','Soul, funk et spoken word','Des musiques afro-américaines et des formes de performance orale participent aux influences qui nourriront le hip-hop.','https://nmaahc.si.edu/']]],
-[1965,'1960s','Poésie, parole et rythme','La poésie orale, les performances parlées et les musiques afro-diasporiques constituent des influences à replacer dans leur contexte.',[['États-Unis','Influence','Spoken word et performance','La poésie performée participe à une histoire plus large de l’expression orale afro-américaine.','https://www.poetryfoundation.org/']]],
-[1973,'1970s','Le hip-hop prend forme dans le Bronx','La fête du 11 août 1973 au 1520 Sedgwick Avenue, associée à DJ Kool Herc et Cindy Campbell, est souvent retenue comme un moment fondateur. Elle s’inscrit dans une histoire collective plus vaste.',[['États-Unis','Événement fondateur','La fête du 1520 Sedgwick Avenue','DJ Kool Herc met en avant les passages instrumentaux — les breaks — en alternant les disques. Cette pratique contribue à façonner le rôle du DJ dans les fêtes du Bronx.','https://nmaahc.si.edu/']]],
-[1979,'1970s','Le rap entre dans l’industrie du disque','La fin des années 1970 marque un tournant : le rap enregistré gagne une audience plus large.',[['États-Unis','Disque','Sugarhill Gang — Rapper’s Delight','Publié en 1979, le morceau contribue à faire connaître le rap au grand public et à l’industrie musicale.','https://www.rockhall.com/']]],
-[1982,'1980s','Le rap affirme son langage','Les années 1980 voient le développement de nouvelles techniques de production, de récits sociaux et d’identités régionales.',[['États-Unis','Morceau','Grandmaster Flash and the Furious Five — The Message','Publié en 1982, le titre devient une référence majeure du rap à portée sociale.','https://www.loc.gov/programs/national-recording-preservation-board/']]],
-[1988,'1980s','Une période d’innovation intense','La fin des années 1980 est marquée par des albums ambitieux, de nouvelles techniques de sampling et l’affirmation de scènes locales.',[]],
-[1994,'1990s','La diversification des scènes','Les années 1990 voient se consolider des scènes régionales distinctes, des labels indépendants influents et une grande diversité de styles.',[]],
-[2000,'2000s','Le rap devient un phénomène mondial','Le rap poursuit son expansion internationale et voit émerger de nouvelles scènes nationales.',[]],
-[2010,'2010s','L’ère du streaming','Les plateformes numériques transforment la découverte musicale, la diffusion des morceaux et les relations entre artistes et publics.',[['Monde','Industrie','Transformation des usages musicaux','Le streaming et les réseaux sociaux modifient la circulation du rap et l’accès aux scènes locales.','https://www.ifpi.org/']]],
-[2020,'2020s','Le hip-hop à l’ère des plateformes','Les scènes drill, trap, rap expérimental et nouvelles vagues coexistent avec des traditions locales.',[]],
-[2026,'2020s','Le hip-hop en 2026','Repère de fin de l’édition historique. Les événements et sorties de 2026 devront être ajoutés au fil de vérifications documentées.',[]]
-];var countries=['États-Unis','Jamaïque','France','Royaume-Uni','Canada','Allemagne','Afrique du Sud','Sénégal','Japon','Corée du Sud','Brésil','Monde'];var decade='1960s',year=1960,offset=0;function $(s){return document.querySelector(s)}countries.forEach(function(c){$('#country').insertAdjacentHTML('beforeend','<option>'+c+'</option>')});function years(){var ys=D.filter(function(x){return x[1]===decade});$('#years').innerHTML=ys.slice(offset,offset+9).map(function(x){return '<button class="'+(x[0]===year?'active':'')+'" data-y="'+x[0]+'">'+x[0]+'</button>'}).join('');$('#years').querySelectorAll('button').forEach(function(b){b.onclick=function(){year=+b.dataset.y;years();detail()}});$('#prev').disabled=offset===0;$('#next').disabled=offset+9>=ys.length}function detail(){var x=D.find(function(v){return v[0]===year}),c=$('#country').value,q=$('#search').value.toLowerCase(),ev=x[4].filter(function(e){return(c==='all'||e[0]===c)&&(!q||e.join(' ').toLowerCase().includes(q))});var cards=ev.map(function(e){return '<article class="event"><small>'+e[1]+' · '+e[0]+'</small><h4>'+e[2]+'</h4><p>'+e[3]+'</p><a href="'+e[4]+'" target="_blank" rel="noopener">Consulter une source ↗</a></article>'}).join('');$('#detail').innerHTML='<div class="kicker">'+x[1]+' / REPÈRE HISTORIQUE</div><h3>'+x[0]+' — '+x[2]+'</h3><p>'+x[3]+'</p>'+(cards?'<div class="event-grid">'+cards+'</div>':'<p>Aucun événement ne correspond à ces filtres pour cette année.</p>')}function render(){var ds=[...new Set(D.map(function(x){return x[1]}))];$('#decades').innerHTML=ds.map(function(x){return '<button class="'+(x===decade?'active':'')+'" data-d="'+x+'">'+x+'</button>'}).join('');$('#decades').querySelectorAll('button').forEach(function(b){b.onclick=function(){decade=b.dataset.d;year=D.find(function(x){return x[1]===decade})[0];offset=0;render()}});years();detail()}$('#prev').onclick=function(){offset=Math.max(0,offset-9);years()};$('#next').onclick=function(){var n=D.filter(function(x){return x[1]===decade}).length;offset=Math.min(Math.max(0,n-9),offset+9);years()};$('#country').onchange=detail;$('#search').oninput=detail;render();
+(function () {
+  const $ = (selector) => document.querySelector(selector);
+  const state = { year: 1960, decade: "1960s", country: "all", query: "", data: null };
+  const decadeFor = (year) => Math.floor(year / 10) * 10 + "s";
+  const decadeNames = ["1960s","1970s","1980s","1990s","2000s","2010s","2020s"];
+  const escapeHTML = (value) => String(value).replace(/[&<>"']/g, (char) => ({
+    "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
+  }[char]));
+  const sourceMap = () => Object.fromEntries(state.data.sources.map((source) => [source.id, source]));
+  function phaseFor(region, year) {
+    return region.phase.find((phase) => year >= phase[0] && year <= phase[1]) || null;
+  }
+  function sourceLinks(ids) {
+    const map = sourceMap();
+    return (ids || []).map((id) => map[id]).filter(Boolean).map((source) =>
+      '<a href="' + escapeHTML(source.url) + '" target="_blank" rel="noopener noreferrer">' +
+      escapeHTML(source.name) + ' ↗</a>'
+    ).join("");
+  }
+  function renderSources() {
+    $("#sourceList").innerHTML = state.data.sources.map((source) =>
+      '<article class="source-item">' +
+        '<span class="source-type">' + escapeHTML(source.type) + '</span>' +
+        '<strong>' + escapeHTML(source.name) + '</strong>' +
+        '<p>' + escapeHTML(source.note) + '</p>' +
+        '<a href="' + escapeHTML(source.url) + '" target="_blank" rel="noopener noreferrer">Consulter la référence ↗</a>' +
+      '</article>'
+    ).join("");
+  }
+  function renderDecades() {
+    $("#decades").innerHTML = decadeNames.map((decade) =>
+      '<button type="button" class="' + (state.decade === decade ? "active" : "") +
+      '" data-decade="' + decade + '">' + decade + '</button>'
+    ).join("");
+    $("#decades").querySelectorAll("button").forEach((button) => {
+      button.addEventListener("click", () => {
+        state.decade = button.dataset.decade;
+        state.year = Number(button.dataset.decade.slice(0, 4));
+        $("#yearSelect").value = String(state.year);
+        renderDecades();
+        renderYear();
+      });
+    });
+  }
+  function renderYearSelect() {
+    const years = [];
+    for (let year = 1960; year <= 2026; year += 1) years.push(year);
+    $("#yearSelect").innerHTML = years.map((year) =>
+      '<option value="' + year + '">' + year + '</option>'
+    ).join("");
+    $("#yearSelect").value = String(state.year);
+  }
+  function renderCountrySelect() {
+    $("#country").innerHTML = '<option value="all">Tous les pays · 12 rubriques</option>' +
+      state.data.regions.map((region) =>
+        '<option value="' + escapeHTML(region.name) + '">' + escapeHTML(region.name) + '</option>'
+      ).join("");
+  }
+  function renderYear() {
+    const year = state.year;
+    const decade = decadeFor(year);
+    const milestone = state.data.milestones[String(year)];
+    const title = milestone ? milestone.title : "Panorama historique de " + year;
+    const summary = milestone ? milestone.text :
+      "Aucun événement unique n'est présenté ici comme un jalon daté faute de référence suffisamment précise. Cette année reste documentée par son contexte de période et par l'état des scènes dans chacun des territoires ci-dessous.";
+    const context = state.data.decadeContext[decade] || state.data.decadeContext["2020s"];
+    const refs = milestone ? sourceLinks(milestone.refs) : "";
+    const query = state.query.trim().toLocaleLowerCase("fr");
+    const selected = state.data.regions.filter((region) =>
+      state.country === "all" || region.name === state.country
+    );
+    const cards = selected.map((region) => {
+      const phase = phaseFor(region, year);
+      if (!phase) return "";
+      const searchable = [region.name, phase[2], phase[3], phase[4], year].join(" ").toLocaleLowerCase("fr");
+      if (query && !searchable.includes(query)) return "";
+      const refsForCard = sourceLinks(phase[5]);
+      return '<article class="region-card">' +
+        '<span class="region-name">' + escapeHTML(region.name) + ' · ' + year + '</span>' +
+        '<h4>' + escapeHTML(phase[2]) + '</h4>' +
+        '<p>' + escapeHTML(phase[3]) + '</p>' +
+        '<div class="examples"><strong>ARTISTES, STYLES ET REPÈRES DE LA PÉRIODE</strong>' +
+          escapeHTML(phase[4]) + '</div>' +
+        '<div class="refs">' + refsForCard + '</div>' +
+      '</article>';
+    }).filter(Boolean).join("");
+    const label = state.country === "all" ? "12 rubriques géographiques" : "Territoire : " + state.country;
+    $("#detail").innerHTML =
+      '<div class="year-overview">' +
+        '<div><div class="kicker">' + decade + ' / REPÈRE HISTORIQUE</div>' +
+          '<h3>' + year + ' — ' + escapeHTML(title) + '</h3>' +
+          '<p>' + escapeHTML(summary) + '</p>' +
+          (refs ? '<div class="milestone-refs">' + refs + '</div>' : '') +
+        '</div>' +
+        '<aside class="year-context"><strong>CONTEXTE DE LA DÉCENNIE</strong>' +
+          escapeHTML(context) +
+        '</aside>' +
+      '</div>' +
+      '<div class="coverage-note">Méthode : les jalons datés sont accompagnés de références. Les fiches pays décrivent l’état de la scène ou ses influences sur la période ; elles ne signifient pas qu’un événement précis s’est produit dans chaque pays chaque année. Pour les années antérieures à l’émergence locale du rap, la fiche le précise.</div>' +
+      '<div class="region-heading"><span>LE HIP-HOP DANS LE MONDE · ' + year + '</span><p>' + escapeHTML(label) + '</p></div>' +
+      (cards ? '<div class="region-grid">' + cards + '</div>' :
+        '<div class="no-results">Aucune fiche ne correspond à cette recherche. Efface le texte de recherche pour afficher les territoires.</div>');
+    $("#prev").disabled = year <= 1960;
+    $("#next").disabled = year >= 2026;
+    $("#yearSelect").value = String(year);
+    $("#country").value = state.country;
+    document.querySelector(".timeline").scrollIntoView({ behavior:"smooth", block:"nearest" });
+  }
+  function onReady(data) {
+    state.data = data;
+    renderCountrySelect();
+    renderYearSelect();
+    renderDecades();
+    renderSources();
+    renderYear();
+    $("#yearSelect").addEventListener("change", (event) => {
+      state.year = Number(event.target.value);
+      state.decade = decadeFor(state.year);
+      renderDecades();
+      renderYear();
+    });
+    $("#prev").addEventListener("click", () => {
+      if (state.year > 1960) state.year -= 1;
+      state.decade = decadeFor(state.year);
+      renderDecades(); renderYear();
+    });
+    $("#next").addEventListener("click", () => {
+      if (state.year < 2026) state.year += 1;
+      state.decade = decadeFor(state.year);
+      renderDecades(); renderYear();
+    });
+    $("#country").addEventListener("change", (event) => {
+      state.country = event.target.value; renderYear();
+    });
+    $("#search").addEventListener("input", (event) => {
+      state.query = event.target.value; renderYear();
+    });
+  }
+  fetch("./data/histoire.json")
+    .then((response) => {
+      if (!response.ok) throw new Error("Impossible de charger la base historique (" + response.status + ").");
+      return response.json();
+    })
+    .then(onReady)
+    .catch((error) => {
+      $("#detail").innerHTML = '<div class="no-results"><strong>La base historique ne peut pas être chargée.</strong><p>' +
+        escapeHTML(error.message) + ' Vérifie que le fichier data/histoire.json est bien publié avec le site.</p></div>';
+    });
+})();
 </script></body></html>
