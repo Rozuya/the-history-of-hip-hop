@@ -1,0 +1,1335 @@
+{
+  "editionDate": "2026-11-24",
+  "coverage": {
+    "from": 1960,
+    "to": 2026,
+    "countryCount": 12,
+    "yearCount": 67,
+    "method": "Chaque année comprend un panorama général et une notice pour chacun des territoires listés. Les notices sans événement précisément daté sont des synthèses de période, clairement distinguées des jalons vérifiés."
+  },
+  "regions": [
+    {
+      "name": "États-Unis",
+      "phase": [
+        [
+          1960,
+          1972,
+          "Influences et pré-émergence",
+          "Le rap n'est pas encore une culture musicale constituée. Les musiques soul, funk, les traditions de parole rythmée, les fêtes de quartier et les pratiques DJ forment des influences importantes. Dans le Bronx, les transformations urbaines et les cultures de jeunesse créent le contexte dans lequel les fêtes hip-hop vont apparaître.",
+          "Soul, funk, spoken word, block parties en formation",
+          [
+            "uhhm",
+            "cambridge-sound",
+            "smithsonian"
+          ]
+        ],
+        [
+          1973,
+          1978,
+          "Naissance du mouvement dans le Bronx",
+          "Les fêtes de quartier du Bronx réunissent DJ, MC, danseurs et artistes visuels. Les techniques de prolongation des breaks, les crews et les block parties structurent progressivement ce qui devient la culture hip-hop. Les récits historiques rappellent qu'il s'agit d'une naissance collective, pas d'un acte isolé.",
+          "Kool Herc, Grandmaster Flash, Afrika Bambaataa, DJ breaks, b-boying, graffiti",
+          [
+            "grammy",
+            "uhhm",
+            "smithsonian"
+          ]
+        ],
+        [
+          1979,
+          1983,
+          "Le rap enregistré prend son essor",
+          "Les premiers disques de rap rencontrent un public beaucoup plus large. Les labels, radios, singles et albums fixent sur disque une culture jusque-là principalement vécue dans les fêtes. Les textes commencent aussi à élargir les sujets abordés au-delà de l'animation de soirée.",
+          "Sugarhill Gang, Kurtis Blow, Grandmaster Flash and the Furious Five, The Message, electro-rap",
+          [
+            "grammy",
+            "smithsonian"
+          ]
+        ],
+        [
+          1984,
+          1989,
+          "Nouvelles écoles et âge d'or naissant",
+          "La production se renouvelle : rythmiques plus sèches, sampling, scratches plus complexes, voix affirmées et albums-concepts. Le rap devient une scène nationale majeure, tout en restant multiple : groupes, MC solos, mouvements politiques et scènes indépendantes.",
+          "Run-D.M.C., LL Cool J, Public Enemy, Eric B. & Rakim, Beastie Boys, De La Soul",
+          [
+            "smithsonian",
+            "smithsonian-collections"
+          ]
+        ],
+        [
+          1990,
+          1999,
+          "Scènes régionales et styles distincts",
+          "Les scènes East Coast, West Coast et du Sud gagnent en visibilité. Boom bap, gangsta rap, G-funk, rap conscient et rap alternatif coexistent. Les producteurs, labels et albums deviennent des marqueurs de régions et de communautés.",
+          "Nas, Wu-Tang Clan, Tupac, The Notorious B.I.G., OutKast, Dr. Dre, A Tribe Called Quest",
+          [
+            "smithsonian",
+            "smithsonian-collections"
+          ]
+        ],
+        [
+          2000,
+          2009,
+          "Expansion commerciale et nouvelle géographie",
+          "Le rap s'impose au centre de la pop mondiale. Le Sud des États-Unis, Atlanta, Houston et La Nouvelle-Orléans influencent fortement les sons dominants. Mixtapes, producteurs stars et collaborations redéfinissent la circulation des morceaux.",
+          "Eminem, Jay-Z, 50 Cent, Kanye West, Lil Wayne, T.I., Three 6 Mafia, OutKast",
+          [
+            "smithsonian",
+            "cambridge-global"
+          ]
+        ],
+        [
+          2010,
+          2019,
+          "Streaming, mixtapes et nouveaux langages",
+          "Les plateformes, les réseaux sociaux et les sorties numériques accélèrent la découverte des artistes. Trap, cloud rap, drill et rap expérimental se développent en parallèle. Les scènes locales peuvent toucher directement un public international.",
+          "Kendrick Lamar, Drake, J. Cole, Future, Young Thug, Cardi B, Travis Scott, Tyler, The Creator",
+          [
+            "smithsonian",
+            "ifpi"
+          ]
+        ],
+        [
+          2020,
+          2026,
+          "Scènes connectées et diversité des formats",
+          "Le streaming et les réseaux sociaux structurent une grande partie de la découverte musicale. Les scènes régionales et diasporiques circulent rapidement entre pays. Cette période doit être actualisée au fil des sorties et des sources datées, car 2026 est encore en cours.",
+          "Rap mélodique, drill, trap, rap alternatif, collaborations transnationales",
+          [
+            "ifpi",
+            "cambridge-global"
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "Jamaïque",
+      "phase": [
+        [
+          1960,
+          1972,
+          "Sound systems et toasting : un héritage essentiel",
+          "La Jamaïque n'est pas le lieu où le hip-hop comme culture de Bronx prend forme, mais son histoire des sound systems est une influence déterminante. Les selectors, les systèmes mobiles, les sound clashes et les deejays qui parlent ou improvisent sur les riddims précèdent et éclairent certaines pratiques du MC.",
+          "Sound systems, ska, rocksteady, reggae, toasting, Count Machuki, U-Roy",
+          [
+            "cambridge-sound",
+            "cambridge-global"
+          ]
+        ],
+        [
+          1973,
+          1983,
+          "Reggae, dub et circulation diasporique",
+          "Les circulations entre Kingston, New York et Londres maintiennent des échanges musicaux constants. Le dub, les versions instrumentales et la performance vocale sur riddim constituent des passerelles culturelles, tandis que le dancehall se développe.",
+          "Dub, early dancehall, U-Roy, Big Youth, Yellowman, Sister Nancy",
+          [
+            "cambridge-sound",
+            "cambridge-global"
+          ]
+        ],
+        [
+          1984,
+          1999,
+          "Dancehall et influence mondiale",
+          "Le dancehall devient une force internationale. Ses techniques vocales, ses riddims et sa culture de sound system influencent de nombreuses scènes hip-hop, notamment dans les diasporas caribéennes du Royaume-Uni, du Canada et des États-Unis.",
+          "Shabba Ranks, Super Cat, Buju Banton, Beenie Man, Bounty Killer",
+          [
+            "cambridge-sound",
+            "cambridge-global"
+          ]
+        ],
+        [
+          2000,
+          2009,
+          "Dancehall mondial et collaborations",
+          "La musique jamaïcaine circule davantage dans la pop et le hip-hop international. Les échanges ne signifient pas que dancehall et rap sont identiques : ils dialoguent par les rythmiques, les voix, les collaborations et les diasporas.",
+          "Sean Paul, Vybz Kartel, Elephant Man, dancehall et crossover",
+          [
+            "cambridge-global",
+            "cambridge-sound"
+          ]
+        ],
+        [
+          2010,
+          2019,
+          "Nouvelles générations et hybridations",
+          "Les artistes jamaïcains renouvellent le dancehall tout en dialoguant avec le rap, le trap et les plateformes numériques. Les riddims et les codes vocaux continuent de circuler bien au-delà de l'île.",
+          "Popcaan, Alkaline, Chronixx, Koffee, dancehall contemporain",
+          [
+            "cambridge-sound",
+            "cambridge-global"
+          ]
+        ],
+        [
+          2020,
+          2026,
+          "Une influence diasporique toujours active",
+          "La Jamaïque demeure un centre majeur du dancehall et une référence pour les musiques urbaines mondiales. Les scènes rap et dancehall se croisent dans les productions et les collaborations, sans effacer leurs histoires distinctes.",
+          "Dancehall contemporain, reggae revival, croisements rap et diaspora",
+          [
+            "cambridge-sound",
+            "ifpi"
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "France",
+      "phase": [
+        [
+          1960,
+          1980,
+          "Avant l'arrivée du hip-hop",
+          "Le rap français n'existe pas encore comme scène. Les musiques funk, soul, disco, les radios, les clubs et les échanges avec les États-Unis constituent le terrain de réception de la culture hip-hop au début des années 1980.",
+          "Funk, disco, radios, danse et cultures de club",
+          [
+            "bpi-france",
+            "sacem-france"
+          ]
+        ],
+        [
+          1981,
+          1989,
+          "Importation, radios libres et premières disques",
+          "Le hip-hop arrive par les tournées, les disquaires, les radios et la télévision. Sidney popularise la culture avec ses émissions, Dee Nasty anime la scène DJ et publie Paname City Rappin' en 1984. Des groupes se forment et les compilations rendent le rap français audible sur disque.",
+          "Sidney, Dee Nasty, Lionel D, Assassin, IAM, NTM, Rapattitude (1989)",
+          [
+            "bpi-france",
+            "sacem-france"
+          ]
+        ],
+        [
+          1990,
+          1999,
+          "L'affirmation d'une scène nationale",
+          "Le rap français se structure autour de groupes, de labels et d'albums majeurs. Les textes développent des identités locales et sociales variées. Les albums de MC Solaar, IAM, NTM et d'autres artistes font franchir un cap à la scène.",
+          "MC Solaar, IAM, Suprême NTM, Ministère A.M.E.R., Oxmo Puccino, Sages Poètes de la Rue; L'École du micro d'argent (1997)",
+          [
+            "sacem-france",
+            "bpi-france"
+          ]
+        ],
+        [
+          2000,
+          2009,
+          "Diversification et succès populaire",
+          "Le rap français devient un pilier de l'industrie musicale. Les styles se diversifient entre rap de rue, rap mélodique, rap conscient, collectifs et carrières solo. Les mixtapes et les compilations jouent un rôle de découverte.",
+          "Booba, Rohff, Diam's, 113, Sniper, Fonky Family, La Fouine, Soprano",
+          [
+            "sacem-france"
+          ]
+        ],
+        [
+          2010,
+          2019,
+          "Internet, nouvelles scènes et streaming",
+          "Les plateformes vidéo et le streaming changent la découverte des artistes. De nouvelles scènes régionales, collectifs et artistes indépendants élargissent les sonorités du rap français, entre trap, cloud rap, mélodie et écriture introspective.",
+          "PNL, Nekfeu, Jul, SCH, Orelsan, Vald, Lomepal, Damso (scène francophone)",
+          [
+            "sacem-france",
+            "ifpi"
+          ]
+        ],
+        [
+          2020,
+          2026,
+          "Scènes multiples et nouvelles esthétiques",
+          "Le rap français reste central dans les écoutes et dans les débats culturels. Drill, jersey, trap, influences afro-caribéennes, rap mélodique et propositions expérimentales coexistent. Les classements et sorties doivent être actualisés avec des données datées.",
+          "Ninho, Gazo, Jul, SCH, Tiakola, SDM et scènes émergentes; actualisation annuelle nécessaire",
+          [
+            "sacem-france",
+            "ifpi"
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "Royaume-Uni",
+      "phase": [
+        [
+          1960,
+          1979,
+          "Les racines sound system et diasporiques",
+          "Avant la constitution d'une scène rap britannique, les sound systems jamaïcains transplantés au Royaume-Uni, le reggae, le dub et les cultures de clubs forment un contexte important. Les circulations caribéennes influencent ensuite les styles locaux.",
+          "Sound systems, reggae, dub, communautés caribéennes",
+          [
+            "cambridge-sound",
+            "cambridge-global"
+          ]
+        ],
+        [
+          1980,
+          1989,
+          "Première scène hip-hop britannique",
+          "Le rap et le breakdance arrivent dans les clubs, les radios et les espaces de jeunesse. Les radios pirates, émissions spécialisées et premiers labels donnent une infrastructure à la scène. Les artistes commencent progressivement à affirmer des accents et références locales.",
+          "Newtrament, Derek B, London Posse, Demon Boyz, Music of Life, Hip-Hop Connection",
+          [
+            "uk",
+            "cambridge-global"
+          ]
+        ],
+        [
+          1990,
+          1999,
+          "Identité locale et croisements musicaux",
+          "Le hip-hop britannique développe ses propres accents, tandis que les artistes évoluent entre rap, sound system, jungle, trip-hop et musiques électroniques. L'écosystème reste largement indépendant et régional.",
+          "Roots Manuva (fin de décennie), Hijack, Gunshot, London Posse, scène indépendante",
+          [
+            "uk",
+            "cambridge-global"
+          ]
+        ],
+        [
+          2000,
+          2009,
+          "Grime et nouvelles scènes urbaines",
+          "Grime émerge à Londres au croisement du garage, du dancehall, du rap et des radios pirates. Les MCs, les crews et les clashes médiatisés construisent une esthétique propre, distincte du rap américain.",
+          "Wiley, Dizzee Rascal, Skepta, Kano, Lethal Bizzle, grime",
+          [
+            "uk",
+            "cambridge-global"
+          ]
+        ],
+        [
+          2010,
+          2019,
+          "Grime, road rap et drill britannique",
+          "Les plateformes et les vidéos musicales accélèrent la visibilité nationale et internationale. Drill britannique et rap de rue se développent, tandis que les artistes naviguent entre scènes underground et succès populaires.",
+          "Stormzy, Skepta, Dave, Little Simz, J Hus, Headie One, UK drill",
+          [
+            "uk",
+            "cambridge-global"
+          ]
+        ],
+        [
+          2020,
+          2026,
+          "Expansion internationale et hybridations",
+          "Les scènes britanniques combinent drill, rap mélodique, influences afro-diasporiques et expérimentations. Les artistes circulent à l'international tout en conservant des codes locaux forts.",
+          "Central Cee, Little Simz, Dave, artistes drill et scènes régionales",
+          [
+            "uk",
+            "ifpi"
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "Canada",
+      "phase": [
+        [
+          1960,
+          1978,
+          "Musiques urbaines et premières influences",
+          "Avant qu'une scène hip-hop canadienne structurée soit documentée, le pays reçoit les disques et émissions des États-Unis. Les cultures musicales noires et caribéennes des grandes villes fourniront des bases importantes aux scènes locales.",
+          "Soul, funk, radios transfrontalières et cultures caribéennes",
+          [
+            "canada",
+            "cambridge-global"
+          ]
+        ],
+        [
+          1979,
+          1989,
+          "Premiers artistes et scènes de Toronto et Montréal",
+          "Les premières productions locales apparaissent autour de la fin des années 1970 et du début des années 1980. Toronto et Montréal voient se développer battles, émissions radio, danse et labels indépendants. Rap City arrive sur MuchMusic en 1989.",
+          "Mr. Q, Michie Mee, Maestro Fresh Wes, Ron Nelson, Beat Factory, Rap City",
+          [
+            "canada"
+          ]
+        ],
+        [
+          1990,
+          1999,
+          "Structuration et reconnaissance nationale",
+          "Les artistes canadiens gagnent en visibilité. Les radios universitaires, les labels indépendants et les événements soutiennent les scènes régionales. Le geste des Rascalz aux Juno Awards en 1998 attire l'attention sur la reconnaissance institutionnelle du rap.",
+          "Rascalz, Maestro Fresh Wes, Michie Mee, Choclair, Kardinal Offishall",
+          [
+            "canada"
+          ]
+        ],
+        [
+          2000,
+          2009,
+          "Diversification des scènes canadiennes",
+          "Les scènes de Toronto, Montréal, Vancouver et d'autres villes gagnent en singularité. Les artistes naviguent entre rap anglophone, rap francophone, influences caribéennes et indépendance musicale.",
+          "Kardinal Offishall, k-os, Classified, Drake (fin de période), rap québécois",
+          [
+            "canada"
+          ]
+        ],
+        [
+          2010,
+          2019,
+          "Toronto sur la carte mondiale",
+          "Le Canada devient beaucoup plus visible dans le rap et la pop internationale, notamment grâce à Toronto. Les scènes francophones et indépendantes conservent leurs propres réseaux.",
+          "Drake, Tory Lanez, NAV, Jazz Cartier, Belly, scènes de Montréal",
+          [
+            "canada",
+            "ifpi"
+          ]
+        ],
+        [
+          2020,
+          2026,
+          "Scènes régionales et circulation numérique",
+          "Le streaming permet à de nouveaux artistes canadiens de toucher des publics internationaux. Le paysage reste pluriel, entre rap anglophone, francophone, scènes locales et collaborations transnationales.",
+          "Pressa, NorthSideBenji, Haviah Mighty et nouvelles scènes locales",
+          [
+            "canada",
+            "ifpi"
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "Allemagne",
+      "phase": [
+        [
+          1960,
+          1979,
+          "Avant la scène hip-hop allemande",
+          "Le hip-hop n'est pas encore une scène allemande. Les musiques afro-américaines, le funk, les échanges avec les bases et médias américains ainsi que les cultures de jeunesse constituent des voies de découverte ultérieures.",
+          "Funk, disco, médias internationaux, cultures de jeunesse",
+          [
+            "germany",
+            "cambridge-global"
+          ]
+        ],
+        [
+          1980,
+          1989,
+          "Arrivée dans une Allemagne divisée",
+          "Breakdance, graffiti, DJing et rap se diffusent dans les deux Allemagnes au cours des années 1980. Les premiers crews s'expriment souvent en anglais avant que des artistes issus notamment de l'immigration affirment le rap en allemand.",
+          "Advanced Chemistry, Die Fantastischen Vier, Fresh Familee, breakdance",
+          [
+            "germany"
+          ]
+        ],
+        [
+          1990,
+          1999,
+          "Rap en allemand et questions d'identité",
+          "Après la réunification, le rap allemand connaît une forte visibilité. Les artistes issus de différentes origines portent des récits sociaux et politiques, tandis que des groupes plus commerciaux touchent un public large.",
+          "Advanced Chemistry, Die Fantastischen Vier, Freundeskreis, Absolute Beginner",
+          [
+            "germany"
+          ]
+        ],
+        [
+          2000,
+          2009,
+          "Mixtapes, labels et rap de rue",
+          "Les scènes se diversifient entre rap conscient, rap de rue, styles commerciaux et réseaux indépendants. L'allemand devient une langue centrale de la création rap nationale.",
+          "Samy Deluxe, Kool Savas, Sido, Bushido, Aggro Berlin",
+          [
+            "germany"
+          ]
+        ],
+        [
+          2010,
+          2019,
+          "Nouveaux courants et succès de masse",
+          "Trap, cloud rap, rap mélodique et scènes de rue renouvellent la scène allemande. Les plateformes de streaming amplifient la portée des artistes et des productions locales.",
+          "Haftbefehl, Kollegah, Cro, Capital Bra, Ufo361, Apache 207",
+          [
+            "germany",
+            "ifpi"
+          ]
+        ],
+        [
+          2020,
+          2026,
+          "Scène dominante et débats sur les genres",
+          "Le rap reste l'une des musiques populaires les plus visibles en Allemagne. Les esthétiques se multiplient, avec des scènes régionales, diasporiques et numériques.",
+          "Rap mélodique, trap germanophone, drill et nouvelles générations",
+          [
+            "germany",
+            "ifpi"
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "Afrique du Sud",
+      "phase": [
+        [
+          1960,
+          1979,
+          "Contexte culturel avant le hip-hop",
+          "Le hip-hop n'est pas encore une scène sud-africaine organisée. Les musiques populaires noires, les cultures de danse, la poésie orale et le contexte politique de l'apartheid forment un arrière-plan important pour les formes ultérieures d'expression culturelle.",
+          "Jazz sud-africain, musiques populaires, cultures de danse et poésie",
+          [
+            "south-africa",
+            "cambridge-global"
+          ]
+        ],
+        [
+          1980,
+          1989,
+          "Premières appropriations et expression consciente",
+          "Le hip-hop est adopté par des jeunes dans un contexte de ségrégation et de lutte politique. Les formes de danse, de graffiti et de rap deviennent des moyens d'expression, notamment dans les villes et au Cap.",
+          "Hip-hop conscient, premiers crews et expression multilingue",
+          [
+            "south-africa"
+          ]
+        ],
+        [
+          1990,
+          1999,
+          "Transition démocratique et scènes locales",
+          "La transition vers la démocratie transforme les conditions de production et de parole. Le hip-hop sud-africain affirme des identités locales et des langues multiples. Les scènes coexistent avec kwaito et d'autres musiques urbaines, sans se confondre avec elles.",
+          "Prophets of da City, Brasse Vannie Kaap, motswako en formation",
+          [
+            "south-africa"
+          ]
+        ],
+        [
+          2000,
+          2009,
+          "Développement commercial et scènes régionales",
+          "Les artistes et labels développent un public plus large. Le hip-hop devient un espace de débat sur l'identité, les langues, l'inégalité et la culture urbaine.",
+          "HHP, Tumi and the Volume, Zubz, rap conscient",
+          [
+            "south-africa"
+          ]
+        ],
+        [
+          2010,
+          2019,
+          "Rap sud-africain sur la scène mondiale",
+          "Les scènes de Johannesburg, Pretoria, Durban et du Cap gagnent en visibilité. Les artistes combinent langues locales, anglais, influences trap et sonorités régionales.",
+          "AKA, Cassper Nyovest, Nasty C, Kwesta, Nadia Nakai",
+          [
+            "south-africa",
+            "ifpi"
+          ]
+        ],
+        [
+          2020,
+          2026,
+          "Nouvelles vagues et hybridations africaines",
+          "Le rap sud-africain dialogue avec amapiano, trap, drill et musiques régionales. Les scènes restent linguistiquement et culturellement diverses.",
+          "Nouvelles générations, collaborations panafricaines et scènes numériques",
+          [
+            "south-africa",
+            "ifpi"
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "Sénégal",
+      "phase": [
+        [
+          1960,
+          1984,
+          "Pré-émergence et traditions orales",
+          "Le rap n'est pas encore une scène sénégalaise structurée. Les traditions orales, les performances, les musiques populaires urbaines et les échanges avec les diasporas constituent le contexte culturel de sa réception ultérieure.",
+          "Traditions de performance, musiques urbaines, influences diasporiques",
+          [
+            "senegal",
+            "cambridge-global"
+          ]
+        ],
+        [
+          1985,
+          1989,
+          "Premiers groupes à Dakar",
+          "Le rap apparaît parmi des jeunes urbains, d'abord dans des cercles relativement restreints. Les premières formations s'inspirent du rap international avant de développer des liens avec les langues et pratiques locales.",
+          "Positive Black Soul (formé en 1989), premiers crews dakarois",
+          [
+            "senegal",
+            "senegal-article"
+          ]
+        ],
+        [
+          1990,
+          1999,
+          "Naissance du Rap Galsen comme scène identifiable",
+          "La scène s'étend au-delà des premiers cercles dakarois. Les groupes développent des styles locaux et s'engagent sur les questions sociales, politiques et générationnelles. La deuxième moitié des années 1990 marque une diffusion plus large.",
+          "Positive Black Soul, Daara J, Rapadio, scène de Dakar",
+          [
+            "senegal",
+            "senegal-article"
+          ]
+        ],
+        [
+          2000,
+          2009,
+          "Collectifs, langues locales et engagement",
+          "Le rap sénégalais s'affirme comme une expression sociale majeure. Les artistes mobilisent le wolof, le français et d'autres langues et développent des collectifs et réseaux indépendants.",
+          "Keur Gui, Fou Malade, Didier Awadi, Rap Galsen",
+          [
+            "senegal",
+            "senegal-article"
+          ]
+        ],
+        [
+          2010,
+          2019,
+          "Rap, citoyenneté et nouvelles générations",
+          "Les artistes continuent d'associer création musicale, parole publique et engagement. Internet favorise la diffusion des scènes au-delà de Dakar et du Sénégal.",
+          "Nouvelles générations de Rap Galsen, collectifs et rap engagé",
+          [
+            "senegal",
+            "senegal-article"
+          ]
+        ],
+        [
+          2020,
+          2026,
+          "Scène connectée et continuité de l'engagement",
+          "Le rap sénégalais évolue entre héritage des pionniers, nouvelles productions numériques et dialogues internationaux. Les mises à jour doivent privilégier les artistes et sorties confirmés par des sources locales.",
+          "Rap Galsen contemporain, scènes régionales et diasporas",
+          [
+            "senegal",
+            "ifpi"
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "Japon",
+      "phase": [
+        [
+          1960,
+          1979,
+          "Avant l'émergence d'une scène locale",
+          "Le hip-hop japonais n'est pas encore établi. Les échanges culturels, les médias et les musiques américaines fournissent un contexte de réception qui prendra forme dans les années 1980.",
+          "Soul, funk, disco, musique américaine et culture des clubs",
+          [
+            "japan",
+            "cambridge-global"
+          ]
+        ],
+        [
+          1980,
+          1989,
+          "Arrivée de la culture hip-hop au milieu des années 1980",
+          "Breakdance, DJing et rap se diffusent dans les clubs, les événements et les médias. La scène se développe en dialogue avec les formes américaines, tout en cherchant progressivement des codes japonais.",
+          "Premiers crews, danse, DJing, clubs de Tokyo",
+          [
+            "japan"
+          ]
+        ],
+        [
+          1990,
+          1999,
+          "Construction d'une scène japonaise identifiable",
+          "Les artistes, labels et événements installent le hip-hop dans la culture populaire japonaise. Les rappeurs expérimentent les rapports entre langue japonaise, flow, sampling et identité locale.",
+          "Scha Dara Parr, King Giddra, Rhymester, Zeebra",
+          [
+            "japan"
+          ]
+        ],
+        [
+          2000,
+          2009,
+          "Diversification et producteurs influents",
+          "La scène se diversifie entre rap underground, productions instrumentales, rap commercial et échanges internationaux. Les producteurs japonais participent à des réseaux mondiaux de fans et de collaborations.",
+          "Nujabes, m-flo, Rip Slyme, Teriyaki Boyz",
+          [
+            "japan",
+            "cambridge-global"
+          ]
+        ],
+        [
+          2010,
+          2019,
+          "Renouveau indépendant et visibilité mondiale",
+          "Les scènes indépendantes et les plateformes numériques favorisent de nouveaux styles. Les artistes japonais dialoguent avec le trap, les productions électroniques et des circuits internationaux.",
+          "KOHH, Awich, KANDYTOWN, scènes indépendantes",
+          [
+            "japan",
+            "ifpi"
+          ]
+        ],
+        [
+          2020,
+          2026,
+          "Nouvelles générations et diffusion numérique",
+          "Le rap japonais présente un paysage diversifié, des scènes underground aux artistes populaires. Les collaborations internationales et les plateformes élargissent les circulations.",
+          "Rap japonais contemporain, drill et trap locaux, collaborations internationales",
+          [
+            "japan",
+            "ifpi"
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "Corée du Sud",
+      "phase": [
+        [
+          1960,
+          1989,
+          "Avant la formation du hip-hop coréen",
+          "Une scène hip-hop coréenne autonome n'est pas encore constituée. Les médias internationaux et les échanges culturels préparent la réception de musiques rap et dance américaines.",
+          "Pop, dance music, médias internationaux",
+          [
+            "korea"
+          ]
+        ],
+        [
+          1990,
+          1994,
+          "Le rap entre dans la culture populaire",
+          "Le début des années 1990 constitue un tournant médiatique. Seo Taiji and Boys et d'autres artistes intègrent le rap à la musique de danse populaire, ce qui élargit l'exposition du public coréen au genre.",
+          "Seo Taiji and Boys, Hyun Jin-young, DEUX",
+          [
+            "korea"
+          ]
+        ],
+        [
+          1995,
+          1999,
+          "Formation d'une scène hip-hop dédiée",
+          "Au milieu et à la fin des années 1990, des fans et artistes construisent une scène plus autonome, avec clubs, collectifs et labels. Le hip-hop coréen se distingue progressivement du simple segment rap dans la pop.",
+          "Drunken Tiger, Uptown, clubs de Hongdae, scène underground",
+          [
+            "korea"
+          ]
+        ],
+        [
+          2000,
+          2009,
+          "Underground, labels et nouvelles générations",
+          "Le rap coréen se développe entre scène indépendante et industrie musicale. Les collectifs et labels contribuent à professionnaliser la scène et à élargir ses publics.",
+          "Epik High, Dynamic Duo, Tiger JK, Leessang",
+          [
+            "korea"
+          ]
+        ],
+        [
+          2010,
+          2019,
+          "Compétitions télévisées et visibilité internationale",
+          "Le rap gagne une forte visibilité grâce à la télévision, aux labels indépendants et à la diffusion mondiale de la pop coréenne. Une scène hip-hop autonome continue de se développer.",
+          "Show Me the Money, Jay Park, Zico, BewhY, The Quiett",
+          [
+            "korea",
+            "ifpi"
+          ]
+        ],
+        [
+          2020,
+          2026,
+          "Écosystème mondial et scène plurielle",
+          "Les artistes coréens circulent dans un marché international connecté. Le rap se décline entre underground, pop, trap et styles hybrides, avec des identités artistiques variées.",
+          "Rap coréen contemporain, labels indépendants, collaborations internationales",
+          [
+            "korea",
+            "ifpi"
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "Brésil",
+      "phase": [
+        [
+          1960,
+          1979,
+          "Cultures noires urbaines avant le mouvement",
+          "Le hip-hop n'est pas encore implanté comme mouvement. Les fêtes de musique noire, le soul et le funk jouent un rôle dans les cultures urbaines de São Paulo et contribuent à préparer le terrain des scènes ultérieures.",
+          "Bailes black, soul, funk, danse et cultures urbaines",
+          [
+            "brazil",
+            "brazil-scielo",
+            "brazil-usp"
+          ]
+        ],
+        [
+          1980,
+          1986,
+          "La danse et le graffiti ouvrent la voie",
+          "La culture hip-hop arrive au Brésil au début et au milieu des années 1980. Les premiers espaces sont liés à la danse, au breakdance et au graffiti, notamment à São Paulo.",
+          "Nelson Triunfo, Funk & Cia., breakdance, graffiti",
+          [
+            "brazil",
+            "brazil-scielo"
+          ]
+        ],
+        [
+          1987,
+          1989,
+          "Premières compilations et rap en portugais",
+          "Les compilations indépendantes et les crews associent rap, DJing, danse et graffiti. La scène de São Paulo développe une identité critique et locale. Racionais MC's apparaît sur la compilation Consciência Black en 1988 ou 1989 selon les sources et éditions consultées.",
+          "Hip-Hop Cultura de Rua, Consciência Black, Thaíde & DJ Hum, Racionais MC's",
+          [
+            "brazil",
+            "brazil-scielo",
+            "brazil-usp"
+          ]
+        ],
+        [
+          1990,
+          1999,
+          "Le rap périphérique affirme sa portée nationale",
+          "Le rap se diffuse dans les périphéries et d'autres villes. Les groupes développent des récits sociaux et des réseaux indépendants. Les scènes de São Paulo et Rio de Janeiro prennent des voies distinctes.",
+          "Racionais MC's, MV Bill, Planet Hemp, Sabotage (fin de décennie)",
+          [
+            "brazil",
+            "brazil-scielo",
+            "brazil-usp"
+          ]
+        ],
+        [
+          2000,
+          2009,
+          "Indépendance, nouveaux publics et métissages",
+          "Les artistes élargissent les formes musicales et les réseaux de diffusion. Le rap brésilien dialogue avec samba, funk, reggae et traditions régionales, tout en conservant des scènes critiques fortes.",
+          "Sabotage, Marcelo D2, Emicida (fin de période), Criolo",
+          [
+            "brazil",
+            "brazil-scielo"
+          ]
+        ],
+        [
+          2010,
+          2019,
+          "Une scène nationale très diversifiée",
+          "Le rap gagne en visibilité sur les plateformes, les festivals et les médias. Les artistes développent des styles régionaux, des identités locales et des croisements avec les musiques brésiliennes.",
+          "Emicida, Criolo, Karol Conká, Djonga, Baco Exu do Blues",
+          [
+            "brazil",
+            "ifpi"
+          ]
+        ],
+        [
+          2020,
+          2026,
+          "Nouvelles générations et scènes régionales",
+          "Le rap brésilien reste diversifié entre trap, drill, funk et rap conscient. Les plateformes rendent visibles des artistes et scènes de nombreuses régions du pays.",
+          "Trap brésilien, rap régional, funk et collaborations internationales",
+          [
+            "brazil",
+            "ifpi"
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "Monde",
+      "phase": [
+        [
+          1960,
+          1972,
+          "Les influences précèdent le mouvement",
+          "Le hip-hop n'est pas encore une culture mondiale. Des traditions musicales et orales circulent entre Caraïbes, États-Unis, Afrique et Europe. La page distingue ces influences des scènes rap qui apparaîtront ensuite.",
+          "Soul, funk, reggae, sound systems, spoken word et migrations culturelles",
+          [
+            "cambridge-sound",
+            "cambridge-global",
+            "uhhm"
+          ]
+        ],
+        [
+          1973,
+          1979,
+          "Une culture née dans le Bronx commence à rayonner",
+          "Les pratiques du Bronx donnent un nouveau langage culturel associant DJing, MCing, danse et art visuel. Les premiers disques de rap facilitent la circulation du mouvement au-delà des fêtes locales.",
+          "Block parties, breakbeats, premiers disques de rap",
+          [
+            "grammy",
+            "smithsonian"
+          ]
+        ],
+        [
+          1980,
+          1989,
+          "Diffusion transnationale",
+          "Films, tournées, télévision, radios et cassettes participent à l'arrivée du hip-hop dans de nombreux pays. Chaque scène adapte progressivement la culture à ses langues, réalités sociales et traditions locales.",
+          "Europe, Canada, Japon, Brésil, Afrique du Sud, Sénégal : scènes en formation",
+          [
+            "cambridge-global",
+            "smithsonian"
+          ]
+        ],
+        [
+          1990,
+          1999,
+          "Des scènes nationales deviennent identifiables",
+          "Le hip-hop se développe comme culture locale dans de nombreux pays. Les langues nationales, les débats sociaux et les industries musicales régionales façonnent des esthétiques distinctes.",
+          "Rap Galsen, hip-hop allemand, rap brésilien, scènes japonaises et coréennes",
+          [
+            "cambridge-global",
+            "senegal",
+            "germany",
+            "japan",
+            "korea",
+            "brazil"
+          ]
+        ],
+        [
+          2000,
+          2009,
+          "Réseaux internationaux et industrie numérique",
+          "Les échanges internationaux se multiplient par les labels, les tournées, les médias musicaux et Internet. Les scènes locales dialoguent avec les courants américains sans simplement les reproduire.",
+          "Rap francophone, grime britannique, rap africain, rap asiatique et latino",
+          [
+            "cambridge-global",
+            "ifpi"
+          ]
+        ],
+        [
+          2010,
+          2019,
+          "Streaming et circulation accélérée",
+          "Les plateformes rendent visibles des scènes autrefois moins accessibles à l'international. Les influences circulent dans plusieurs directions et les collaborations se multiplient.",
+          "Trap, drill, cloud rap, rap conscient et scènes régionales",
+          [
+            "cambridge-global",
+            "ifpi"
+          ]
+        ],
+        [
+          2020,
+          2026,
+          "Écosystème global connecté",
+          "Les scènes locales, diasporiques et indépendantes sont connectées par les plateformes et réseaux sociaux. Une histoire mondiale doit rester attentive aux langues, aux contextes et aux sources locales.",
+          "Diversité des langues, genres, scènes indépendantes et collaborations",
+          [
+            "cambridge-global",
+            "ifpi"
+          ]
+        ]
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "smithsonian",
+      "name": "Smithsonian — Anthology of Hip-Hop and Rap",
+      "type": "Institution muséale",
+      "url": "https://nmaahc.si.edu/explore/publications/smithsonian-anthology-hip-hop-and-rap",
+      "note": "Anthologie documentée sur l'évolution du hip-hop, de ses premières années à 2013."
+    },
+    {
+      "id": "smithsonian-collections",
+      "name": "Smithsonian — Hip-Hop (R)Evolutions",
+      "type": "Collection muséale",
+      "url": "https://nmaahc.si.edu/explore/initiatives/hip-hop-revolutions",
+      "note": "Objets, artistes, culture DJ, mode, techniques et éléments de contexte."
+    },
+    {
+      "id": "grammy",
+      "name": "Recording Academy / GRAMMY — A Brief History of Hip-Hop at 50",
+      "type": "Chronologie éditoriale",
+      "url": "https://www.grammy.com/news/hip-hop-history-timeline-50th-anniversary-photos-videos-playlist/",
+      "note": "Repères de 1973, 1979, 1982 et évolution de la culture."
+    },
+    {
+      "id": "uhhm",
+      "name": "Universal Hip Hop Museum — Timeline & education resources",
+      "type": "Musée spécialisé",
+      "url": "https://uhhm.org/hip-hop-timeline",
+      "note": "Ressources éducatives et chronologie des racines et premiers développements du hip-hop."
+    },
+    {
+      "id": "cambridge-sound",
+      "name": "Cambridge University Press — A History of Sound System and Emcee Culture",
+      "type": "Ouvrage universitaire",
+      "url": "https://www.cambridge.org/core/books/abs/cambridge-companion-to-global-rap/history-of-sound-system-and-emcee-culture/B1EA8783E0586493E6982363D5D36312",
+      "note": "Rôle des sound systems jamaïcains, du toasting et des circulations entre Jamaïque, États-Unis et Royaume-Uni."
+    },
+    {
+      "id": "cambridge-global",
+      "name": "Cambridge University Press — The Cambridge Companion to Global Rap",
+      "type": "Ouvrage universitaire",
+      "url": "https://www.cambridge.org/core/books/cambridge-companion-to-global-rap/introduction/D859DFBBC079A842F34597A0AB256F0E",
+      "note": "Approche internationale des scènes, migrations, techniques et échanges culturels."
+    },
+    {
+      "id": "bpi-france",
+      "name": "Bibliothèque publique d'information — L'arrivée du hip-hop en France",
+      "type": "Bibliothèque / dossier documentaire",
+      "url": "https://www.bpi.fr/content/uploads/sites/2/2023/09/pdf-accessible-de-balises-numero-11.pdf",
+      "note": "Repères documentés sur Dee Nasty, Sidney, Paname City Rappin', les radios et Rapattitude."
+    },
+    {
+      "id": "sacem-france",
+      "name": "Musée SACEM — Rap ! Un scratch, un beat… 40 ans de rap français",
+      "type": "Musée / exposition",
+      "url": "https://musee.sacem.fr/index.php/ExhibitionCMS/ExhibitionCMS/View?id=4561",
+      "note": "Histoire du rap français organisée en périodes de 1983 à 2023."
+    },
+    {
+      "id": "uk",
+      "name": "Alex Stevenson — Hip-Hop in the UK",
+      "type": "Recherche universitaire",
+      "url": "https://eprints.leedsbeckett.ac.uk/id/eprint/10268/7/HiphopInTheUkAM-STEVENSON.pdf",
+      "note": "Développement du hip-hop britannique, radios, labels, presse et scènes des années 1980-1990."
+    },
+    {
+      "id": "canada",
+      "name": "University of Toronto — Charting Canadian Hip-Hop's Course",
+      "type": "Université / histoire orale",
+      "url": "https://magazine.utoronto.ca/people/faculty-staff/charting-canadian-hip-hops-course-mark-v-campbell-history/",
+      "note": "Repères canadiens : battle de Montréal en 1984, radio, MuchMusic et Rascalz."
+    },
+    {
+      "id": "germany",
+      "name": "Global Hip Hop Studies — Germany (Deutschland)",
+      "type": "Recherche universitaire",
+      "url": "https://intellectdiscover.com/content/journals/10.1386/ghhs_00066_1",
+      "note": "Arrivée du hip-hop dans l'Allemagne divisée des années 1980 et évolution après 1990."
+    },
+    {
+      "id": "south-africa",
+      "name": "Global Hip Hop Studies — South Africa (Mzansi)",
+      "type": "Recherche universitaire",
+      "url": "https://intellectdiscover.com/content/journals/10.1386/ghhs_00055_1",
+      "note": "Hip-hop conscient, expression multilingue et contexte social en Afrique du Sud."
+    },
+    {
+      "id": "senegal",
+      "name": "Oxford University Press — In Hip Hop Time: Music, Memory, and Social Change in Urban Senegal",
+      "type": "Ouvrage universitaire",
+      "url": "https://academic.oup.com/book/4763",
+      "note": "Histoire du Rap Galsen, de ses débuts à Dakar dans les années 1980 à son expansion et son rôle social."
+    },
+    {
+      "id": "senegal-article",
+      "name": "The Journal of Pan African Studies — Urban Guerrilla Poetry",
+      "type": "Recherche universitaire",
+      "url": "https://www.jpanafrican.org/docs/vol6no3/6.3-4-Gueye-Urban.pdf",
+      "note": "Positive Black Soul, les collectifs de Dakar et le développement du rap sénégalais."
+    },
+    {
+      "id": "japan",
+      "name": "Ian Condry — Hip-Hop Japan: Rap and the Paths of Cultural Globalization",
+      "type": "Recherche universitaire / ouvrage",
+      "url": "https://doi.org/10.1093/SSJJ/JYN006",
+      "note": "Histoire de la scène japonaise depuis ses origines au milieu des années 1980."
+    },
+    {
+      "id": "korea",
+      "name": "Journal of Popular Music Studies — Hip Hop Mun Ikjeom",
+      "type": "Recherche universitaire",
+      "url": "https://online.ucpress.edu/jpms/article/35/1/4/195648/Hip-Hop-Mun-IkjeomThe-Life-and-Music-of-Hyun-Jin",
+      "note": "Hyun Jin-young, Seo Taiji and Boys et formation du hip-hop coréen dans les années 1990."
+    },
+    {
+      "id": "brazil",
+      "name": "Oxford Handbook of Hip Hop Music — Brazilian Hip Hop in Three Scenes",
+      "type": "Recherche universitaire",
+      "url": "https://academic.oup.com/edited-volume/34741/chapter-abstract/296554673",
+      "note": "Scènes de São Paulo et Rio, de la période 1980 aux transformations contemporaines."
+    },
+    {
+      "id": "brazil-scielo",
+      "name": "Vibrant — Sounds of youth in the metropolis: Hip Hop in São Paulo",
+      "type": "Recherche universitaire en accès libre",
+      "url": "https://www.scielo.br/j/vb/a/gqgLQywLFvdS887G56dn7Sg/?format=html&lang=en",
+      "note": "Émergence au milieu des années 1980 et déplacement progressif du mouvement vers les périphéries."
+    },
+    {
+      "id": "brazil-usp",
+      "name": "Université de São Paulo — O rap de São Paulo",
+      "type": "Université / recherche",
+      "url": "https://www.eca.usp.br/acervo/producao-academica/002735682.pdf",
+      "note": "Développement des collectifs, compilations et de Racionais MC's."
+    },
+    {
+      "id": "ifpi",
+      "name": "IFPI — Global Music Report / Industry resources",
+      "type": "Organisation professionnelle",
+      "url": "https://www.ifpi.org/our-industry/",
+      "note": "Contexte de l'industrie musicale et des transformations liées à la diffusion numérique."
+    }
+  ],
+  "milestones": {
+    "1960": {
+      "title": "Les racines musicales et culturelles",
+      "text": "Cette année est présentée comme un repère de contexte, non comme une date de naissance du hip-hop. Les sound systems jamaïcains, la musique soul et les traditions de performance orale font partie des histoires musicales qui nourriront plus tard les cultures DJ et MC.",
+      "refs": [
+        "cambridge-sound",
+        "uhhm"
+      ]
+    },
+    "1963": {
+      "title": "Parole publique, musique noire et contexte social",
+      "text": "Les mouvements pour les droits civiques, les traditions de spoken word et les musiques afro-américaines forment un contexte social et artistique important. Ces éléments ne constituent pas encore le hip-hop, mais aident à comprendre son futur environnement culturel.",
+      "refs": [
+        "uhhm",
+        "smithsonian"
+      ]
+    },
+    "1968": {
+      "title": "Le Bronx et New York en transformation",
+      "text": "Les transformations urbaines, les inégalités et les cultures de jeunesse participent au contexte dans lequel les block parties et les nouvelles pratiques DJ vont se développer dans les années suivantes.",
+      "refs": [
+        "uhhm",
+        "smithsonian"
+      ]
+    },
+    "1973": {
+      "title": "Une fête du Bronx devenue un repère fondateur",
+      "text": "Le 11 août 1973, DJ Kool Herc anime avec sa sœur Cindy Campbell une fête de rentrée au 1520 Sedgwick Avenue, dans le Bronx. L'événement est largement retenu comme un moment fondateur du hip-hop, tout en s'inscrivant dans une histoire collective plus longue.",
+      "refs": [
+        "grammy",
+        "smithsonian",
+        "cambridge-sound"
+      ]
+    },
+    "1977": {
+      "title": "Les block parties et les crews consolident le mouvement",
+      "text": "Le hip-hop est déjà une pratique de quartier : DJs, MCs, danseurs et graffeurs se retrouvent dans les fêtes et les lieux de rencontre du Bronx et de New York. La chronologie du Universal Hip Hop Museum replace ces développements dans les transformations de la ville.",
+      "refs": [
+        "uhhm",
+        "smithsonian"
+      ]
+    },
+    "1979": {
+      "title": "Le rap entre dans l'histoire du disque",
+      "text": "Rapper's Delight du Sugarhill Gang devient un succès international et aide à faire connaître le rap enregistré au grand public. La même année, les premiers disques de rap de labels américains contribuent à transformer une culture de fête en genre discographique.",
+      "refs": [
+        "grammy",
+        "smithsonian"
+      ]
+    },
+    "1980": {
+      "title": "L'album et le single deviennent des formats centraux",
+      "text": "Au début des années 1980, les labels, les studios et les DJs développent les possibilités du rap enregistré. Le genre s'étend au-delà des fêtes locales et la production devient un terrain d'innovation.",
+      "refs": [
+        "smithsonian",
+        "smithsonian-collections"
+      ]
+    },
+    "1982": {
+      "title": "The Message élargit les sujets du rap",
+      "text": "Grandmaster Flash and the Furious Five publient The Message, coécrit par Melle Mel et Duke Bootee. Le morceau montre que le rap peut porter un récit social au-delà de la seule animation des fêtes.",
+      "refs": [
+        "grammy",
+        "smithsonian"
+      ]
+    },
+    "1983": {
+      "title": "Le hip-hop circule par le cinéma et les médias",
+      "text": "Les films, les clips, les tournées et les émissions contribuent à faire découvrir le hip-hop à de nouveaux publics. La culture devient de plus en plus visible hors de New York et hors des États-Unis.",
+      "refs": [
+        "smithsonian",
+        "cambridge-global"
+      ]
+    },
+    "1984": {
+      "title": "Le hip-hop devient visible en France",
+      "text": "En France, Sidney présente l'émission H.I.P. H.O.P. sur TF1 et Dee Nasty publie Paname City Rappin', souvent considéré comme le premier album de rap produit en France. Le breakdance et les médias contribuent à populariser le mouvement.",
+      "refs": [
+        "bpi-france",
+        "sacem-france"
+      ]
+    },
+    "1985": {
+      "title": "Les structures et compétitions se développent",
+      "text": "Le hip-hop se professionnalise progressivement : labels, radios, compétitions de DJing et circuits de concerts soutiennent les scènes locales. Les échanges internationaux s'intensifient.",
+      "refs": [
+        "smithsonian",
+        "uk",
+        "bpi-france"
+      ]
+    },
+    "1986": {
+      "title": "Les radios et les jams soutiennent les scènes locales",
+      "text": "Les free jams et les radios spécialisées sont des lieux de transmission majeurs en France et dans plusieurs scènes internationales. Les artistes et DJs construisent des réseaux au-delà des circuits commerciaux traditionnels.",
+      "refs": [
+        "bpi-france",
+        "uk",
+        "smithsonian"
+      ]
+    },
+    "1987": {
+      "title": "Les radios spécialisées structurent le rap français",
+      "text": "Dee Nasty et Lionel D animent Deenastyle sur Radio Nova, une émission importante pour les freestyles et la découverte du rap français. Les scènes locales gagnent en visibilité grâce aux radios.",
+      "refs": [
+        "bpi-france",
+        "sacem-france"
+      ]
+    },
+    "1988": {
+      "title": "Le rap local s'affirme sur plusieurs continents",
+      "text": "Au Brésil, les compilations Hip-Hop Cultura de Rua et Consciência Black contribuent à faire connaître des artistes et collectifs, dont Racionais MC's selon les sources universitaires. Aux États-Unis et en Europe, l'âge d'or du rap se poursuit.",
+      "refs": [
+        "brazil",
+        "brazil-scielo",
+        "smithsonian"
+      ]
+    },
+    "1989": {
+      "title": "Rapattitude et les premières scènes mondiales",
+      "text": "En France, Rapattitude devient une compilation fondatrice du rap français. Au Sénégal, Positive Black Soul se forme à Dakar. Au Canada, Rap City débute sur MuchMusic et contribue à la diffusion nationale des clips hip-hop.",
+      "refs": [
+        "bpi-france",
+        "canada",
+        "senegal",
+        "senegal-article"
+      ]
+    },
+    "1990": {
+      "title": "Le hip-hop s'enracine dans les scènes nationales",
+      "text": "Le rap se diversifie au-delà des États-Unis. En France, les radios et médias spécialisés soutiennent les artistes. Au Brésil, les collectifs de São Paulo développent une expression ancrée dans les réalités des périphéries.",
+      "refs": [
+        "sacem-france",
+        "brazil",
+        "cambridge-global"
+      ]
+    },
+    "1992": {
+      "title": "Le rap entre dans la pop coréenne",
+      "text": "Seo Taiji and Boys contribuent à faire découvrir au grand public coréen une musique populaire intégrant le rap. La scène hip-hop coréenne autonome se développera ensuite au milieu et à la fin des années 1990.",
+      "refs": [
+        "korea"
+      ]
+    },
+    "1994": {
+      "title": "L'âge d'or et la diversité des scènes",
+      "text": "Aux États-Unis, des albums comme Illmatic de Nas et Ready to Die de The Notorious B.I.G. illustrent la vitalité de scènes et d'écritures différentes. Dans d'autres pays, les scènes locales gagnent en autonomie.",
+      "refs": [
+        "smithsonian",
+        "cambridge-global"
+      ]
+    },
+    "1997": {
+      "title": "Les albums deviennent des références générationnelles",
+      "text": "Le rap poursuit sa diversification stylistique et commerciale. Les scènes régionales, les labels et les producteurs contribuent à définir des identités musicales fortes aux États-Unis comme à l'international.",
+      "refs": [
+        "smithsonian",
+        "sacem-france"
+      ]
+    },
+    "1998": {
+      "title": "Racionais MC's marque le rap brésilien",
+      "text": "L'album Sobrevivendo no Inferno de Racionais MC's devient une référence majeure du rap brésilien. Au Canada, le groupe Rascalz proteste aux Juno Awards contre la faible reconnaissance institutionnelle du hip-hop.",
+      "refs": [
+        "brazil",
+        "brazil-usp",
+        "canada"
+      ]
+    },
+    "2000": {
+      "title": "Le rap devient un pilier de la musique populaire",
+      "text": "Au tournant des années 2000, le rap est installé au cœur de l'industrie musicale internationale. Les artistes et producteurs circulent entre les scènes, tandis que les labels indépendants continuent d'innover.",
+      "refs": [
+        "smithsonian",
+        "cambridge-global"
+      ]
+    },
+    "2004": {
+      "title": "L'indépendance et les esthétiques alternatives progressent",
+      "text": "Le rap des années 2000 se développe entre succès commerciaux, mixtapes, circuits indépendants et productions expérimentales. Les collaborations entre artistes et producteurs deviennent un moteur important de renouvellement.",
+      "refs": [
+        "smithsonian",
+        "cambridge-global"
+      ]
+    },
+    "2008": {
+      "title": "Internet transforme la découverte musicale",
+      "text": "Les blogs, plateformes vidéo, mixtapes en ligne et réseaux sociaux renforcent les circuits indépendants. Les artistes peuvent atteindre un public sans dépendre uniquement des médias et labels traditionnels.",
+      "refs": [
+        "ifpi",
+        "cambridge-global"
+      ]
+    },
+    "2010": {
+      "title": "Le numérique devient une infrastructure centrale",
+      "text": "Les plateformes de streaming et les réseaux sociaux accélèrent la circulation des titres et la découverte de scènes locales. Les modèles de diffusion et de rémunération changent progressivement.",
+      "refs": [
+        "ifpi",
+        "cambridge-global"
+      ]
+    },
+    "2012": {
+      "title": "Les émissions et plateformes amplifient les scènes",
+      "text": "La visibilité numérique et télévisuelle contribue à élargir les publics du rap dans plusieurs pays. En Corée du Sud, Show Me the Money apparaît comme un nouveau canal de visibilité pour les rappeurs.",
+      "refs": [
+        "korea",
+        "ifpi"
+      ]
+    },
+    "2015": {
+      "title": "Trap, drill et nouvelles scènes se multiplient",
+      "text": "Les scènes locales développent des variantes de trap, de drill et de rap mélodique. Les plateformes accélèrent la circulation mondiale des codes, mais les langues et histoires locales restent déterminantes.",
+      "refs": [
+        "cambridge-global",
+        "ifpi"
+      ]
+    },
+    "2017": {
+      "title": "Le streaming et les scènes indépendantes dominent la découverte",
+      "text": "Le rap est devenu l'une des formes musicales les plus visibles à l'échelle mondiale. Les artistes peuvent construire des communautés numériques, tandis que les scènes régionales produisent leurs propres sons.",
+      "refs": [
+        "ifpi",
+        "cambridge-global"
+      ]
+    },
+    "2018": {
+      "title": "Les scènes nationales gagnent en visibilité internationale",
+      "text": "Les artistes issus de scènes locales et diasporiques circulent davantage à l'international. Les esthétiques rap se mélangent aux musiques électroniques, afro-diasporiques et populaires de chaque pays.",
+      "refs": [
+        "cambridge-global",
+        "ifpi"
+      ]
+    },
+    "2020": {
+      "title": "Les pratiques musicales s'adaptent à une période exceptionnelle",
+      "text": "Les restrictions sanitaires bouleversent concerts, tournées et rencontres. Les sorties numériques, les réseaux sociaux et les formats à distance prennent encore plus de place dans la relation entre artistes et publics.",
+      "refs": [
+        "ifpi"
+      ]
+    },
+    "2021": {
+      "title": "Les scènes locales et les communautés numériques se renforcent",
+      "text": "Le rap continue de se développer en ligne et sur les plateformes de streaming. Les artistes indépendants, les scènes régionales et les collaborations transnationales occupent une place importante.",
+      "refs": [
+        "ifpi",
+        "cambridge-global"
+      ]
+    },
+    "2023": {
+      "title": "Cinquante ans de hip-hop : un anniversaire mondial",
+      "text": "L'année 2023 marque les cinquante ans du repère fondateur du 11 août 1973. Musées, médias, artistes et institutions reviennent sur l'histoire du hip-hop et sur ses dimensions musicales, visuelles et sociales.",
+      "refs": [
+        "grammy",
+        "smithsonian",
+        "smithsonian-collections"
+      ]
+    },
+    "2024": {
+      "title": "Une culture patrimoniale et toujours en mouvement",
+      "text": "Le hip-hop continue de se renouveler dans les scènes locales et mondiales. Les débats sur les archives, la transmission, la place des femmes, les industries culturelles et la rémunération des artistes prennent une place croissante.",
+      "refs": [
+        "smithsonian-collections",
+        "cambridge-global",
+        "ifpi"
+      ]
+    },
+    "2025": {
+      "title": "Nouvelles recherches sur l'histoire mondiale du rap",
+      "text": "Les recherches universitaires récentes documentent de plus en plus précisément les scènes nationales, les circulations diasporiques et l'histoire des sound systems. Cette chronologie s'appuie notamment sur le Cambridge Companion to Global Rap publié en 2025.",
+      "refs": [
+        "cambridge-global",
+        "cambridge-sound"
+      ]
+    },
+    "2026": {
+      "title": "Le hip-hop en 2026 — année en cours",
+      "text": "Cette édition est arrêtée au 24 novembre 2026. Les repères de l'année doivent être complétés au fur et à mesure par des annonces, sorties, archives et données datées. Les événements non confirmés ne sont pas présentés comme des faits.",
+      "refs": [
+        "ifpi",
+        "cambridge-global"
+      ]
+    }
+  },
+  "decadeContext": {
+    "1960s": "Contexte des influences : musiques soul et funk, traditions de performance orale, sound systems caribéens et transformations sociales. Le hip-hop n'est pas encore constitué comme culture autonome.",
+    "1970s": "Émergence dans le Bronx, développement des block parties, rôle du DJ, du MC, des danseurs et des artistes visuels, puis premiers disques de rap à la fin de la décennie.",
+    "1980s": "Diffusion internationale par les radios, films, tournées, cassettes et télévision. Les premières scènes nationales adaptent la culture à leurs langues et contextes.",
+    "1990s": "Âge d'or et diversification : scènes régionales américaines, consolidation de scènes en Europe, Afrique, Amérique latine et Asie, essor des labels indépendants.",
+    "2000s": "Expansion commerciale et multiplication des scènes nationales. Mixtapes, médias spécialisés, Internet et collaborations élargissent les circuits de diffusion.",
+    "2010s": "Streaming, réseaux sociaux et plateformes vidéo accélèrent la découverte. Trap, drill, cloud rap et autres courants circulent entre scènes locales.",
+    "2020s": "Écosystème mondial connecté. Les scènes indépendantes, diasporiques et régionales se répondent; les données de l'année en cours restent à actualiser."
+  }
+}
